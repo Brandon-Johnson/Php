@@ -5,3 +5,10 @@ background-color:black;
 background-repeat:repeat;
 background-attachment:fixed;
 }
+
+#Basics
+{
+float:left;
+width:25%;
+
+}
