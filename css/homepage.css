@@ -10,6 +10,7 @@ background-attachment:fixed;
 html
 {
 height:100%;
+overflow:hidden;
 }
 
 #Basics
