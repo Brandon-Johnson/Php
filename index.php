@@ -7,12 +7,14 @@
   </head>
 
 <body>
-  <div id="pictures">
-    <img src="http://php-bdj.rhcloud.com/images/me.jpg" alt="I rock these 3d glasses like no other"/>
-    <p><b><i>This is me</i></b></p>
-    <br />
-    <img src="http://php-bdj.rhcloud.com/images/Kody.jpg" alt="My Best Friend"/>
-    <p><b><i>This is my partner in crime</i></b></p>
+  <div id="leftColumn">
+    <div id="pictures">
+      <img src="http://php-bdj.rhcloud.com/images/me.jpg" alt="I rock these 3d glasses like no other"/>
+      <p><b><i>This is me</i></b></p>
+      <br />
+      <img src="http://php-bdj.rhcloud.com/images/Kody.jpg" alt="My Best Friend"/>
+      <p><b><i>This is my partner in crime</i></b></p>
+    </div>
   </div>
 
   <div id="Basics">
