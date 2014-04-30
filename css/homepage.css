@@ -1,5 +1,6 @@
 body
 {
+height:100%;
 background-image:url("http://php-bdj.rhcloud.com/images/shattered.png");
 background-color:black;
 background-repeat:repeat;
@@ -8,6 +9,7 @@ background-attachment:fixed;
 
 #Basics
 {
+height:100%;
 width:25%;
 margin-left:260px;
 }
@@ -23,6 +25,7 @@ border-right-width:5px;
 
 #pictures
 {
+height:100%;
 float:left;
 width:250px;
 margin-left:30px;
