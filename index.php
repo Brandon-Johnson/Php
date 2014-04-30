@@ -9,12 +9,13 @@
 <body>
   <div id="picture">
     <img src="http://php-bdj.rhcloud.com/images/me.jpg" alt="I rock these 3d glasses like no other"/>
-    <p>This is me</p>
+    <b><i>This is me</i></b>
+    <br />
   </div> 
 
   <div id="picture">
     <img src="http://php-bdj.rhcloud.com/images/Kody.jpg" alt="My Best Friend"/>
-    <p>This is my partner in crime</p>
+    <b><i>This is my partner in crime</i></b>
   </div>
 
   <div id="Basics">
