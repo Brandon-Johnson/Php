@@ -25,7 +25,6 @@
       
       <dt><b>Hometown:</b></dt>
       <dd><i>Atlanta, Georgia</dd></i>
-
   </div>
 
 
