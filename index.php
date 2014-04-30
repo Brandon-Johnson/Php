@@ -7,12 +7,14 @@
   </head>
 
 <body>
-  <div id="pictureOfMe">
+  <div id="picture">
     <img src="http://php-bdj.rhcloud.com/images/me.jpg" alt="I rock these 3d glasses like no other"/>
+    <p>This is me</p>
   </div> 
 
-  <div id="pictureOfKody">
+  <div id="picture">
     <img src="http://php-bdj.rhcloud.com/images/Kody.jpg" alt="My Best Friend"/>
+    <p>This is my partner in crime</p>
   </div>
 
   <div id="Basics">
