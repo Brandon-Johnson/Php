@@ -26,16 +26,15 @@ font-family: Papyrus, fantasy;
 
 nav ul
 {
-	list-style:none;
-	padding-left:0;
-	text-align:center;
+list-style:none;
+padding-left:0;
+text-align:center;
 }
 
 nav ul li
 {
 line-height:60px;
-border-top:3px solid #707070;
-border-bottom:3px solid #707070;
+border-bottom:2px solid #909090;
 }
 
 nav ul li a
@@ -45,10 +44,14 @@ display:block;
 
 .homelogo
 {
-	background-image:url("http://php-bdj.rhcloud.com/images/home-scaled.png");
+background-image:url("http://php-bdj.rhcloud.com/images/home-scaled.png");
+height: 100px;
+background-repeat: no-repeat;
+border-top:2px solid #909090;
+border-bottom:2px solid #909090;
 }
 
 .homelogo:hover
 {
-	background-image:url("http://php-bdj.rhcloud.com/images/home-onhover.png");
+background-image:url("http://php-bdj.rhcloud.com/images/home-onhover.png");
 }
