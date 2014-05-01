@@ -3,18 +3,19 @@
 <html>
   <head>
     <title>My Home Page</title>
+    <link rel="stylesheet" type="text/css" href="http://php-bdj.rhcloud.com/css/template.css"/>
     <link rel="stylesheet" type="text/css" href="http://php-bdj.rhcloud.com/css/homepage.css"/>
   </head>
 
 <body>
-  <div id="leftColumn">
+  <?php include 'modules/navigation.php' ?>
+
     <div id="pictures">
       <img src="http://php-bdj.rhcloud.com/images/me.jpg" alt="I rock these 3d glasses like no other"/>
       <p><b><i>This is me</i></b></p>
       <br />
       <img src="http://php-bdj.rhcloud.com/images/Kody.jpg" alt="My Best Friend"/>
       <p><b><i>This is my partner in crime</i></b></p>
-    </div>
   </div>
 
   <div id="Basics">
