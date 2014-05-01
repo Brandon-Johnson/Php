@@ -24,6 +24,25 @@ background-color:#606060;
 font-family: Papyrus, fantasy;
 }
 
+navigation ul
+{
+	list-style:none;
+	padding-left:0;
+	text-align:center;
+}
+
+navigation ul li
+{
+line-height:60px;
+border-top:3px solid #707070;
+border-bottom:3px solid #707070;
+}
+
+navigation ul li a
+{
+display:block;
+}
+
 .homelogo
 {
 	background-image:url("http://php-bdj.rhcloud.com/images/home-scaled.png");
