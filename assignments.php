@@ -4,7 +4,7 @@
 
 <head>
 <title>Assignments</title>
-
+<link rel="stylesheet" type="text/css" href="http://php-bdj.rhcloud.com/css/template.css"/>
 </head>
 
 <body>
