@@ -1,3 +1,6 @@
+<link rel="stylesheet" type="text/css" href="http://php-bdj.rhcloud.com/css/template.css"/>
+
+
 <aside class="navigation">
 	<nav>
 		<ul>

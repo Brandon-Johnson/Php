@@ -3,7 +3,7 @@
 <html>
   <head>
     <title>My Home Page</title>
-    <link rel="stylesheet" type="text/css" href="http://php-bdj.rhcloud.com/css/template.css"/>
+  
     <link rel="stylesheet" type="text/css" href="http://php-bdj.rhcloud.com/css/homepage.css"/>
   </head>
 
