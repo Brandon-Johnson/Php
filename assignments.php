@@ -8,6 +8,7 @@
 </head>
 
 <body>
+	<?php include 'modules/navigation.php' ?>
 	<div>
 		Coming soon!!
 	</div>
