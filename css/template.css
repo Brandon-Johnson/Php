@@ -24,21 +24,21 @@ background-color:#606060;
 font-family: Papyrus, fantasy;
 }
 
-navigation ul
+nav ul
 {
 	list-style:none;
 	padding-left:0;
 	text-align:center;
 }
 
-navigation ul li
+nav ul li
 {
 line-height:60px;
 border-top:3px solid #707070;
 border-bottom:3px solid #707070;
 }
 
-navigation ul li a
+nav ul li a
 {
 display:block;
 }
