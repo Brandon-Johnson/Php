@@ -9,9 +9,19 @@
 			<li><a href="/assignments.php">Assignments</a></li>
 		</ul>	
 	</nav>
-	<div class="social-icons">
-		<a name="myFacebookIcon" href="https://www.facebook.com/BrandonDJohnson8"></a>
-		<a name="myGitHubIcon" href="https://github.com/Brandon-Johnson?tab=repositories"></a>
-		<a name="myLinkedInIcon" href="https://www.linkedin.com/in/brandondavidjohnson"></a>
-	</div>
+	<a href="" target="_blank">
+        <div class="social-icon-wrapper myFacebookIcon">
+           <span class="social-icon icon-myFacebookIcon"></span>
+        </div>
+    </a>
+    <a href="" target="_blank">
+        <div class="social-icon-wrapper myGithubIcon">
+            <span class="social-icon icon-myGithubIcon"></span>
+        </div>
+    </a>
+    <a href="https://www.facebook.com/">
+        <div class="social-icon-wrapper myLinkedinIcon">
+            <span class="social-icon icon-myLinkedInIcon" ></span>
+        </div>
+    </a>
 </aside>
