@@ -9,17 +9,17 @@
 			<li><a href="/assignments.php">Assignments</a></li>
 		</ul>	
 	</nav>
-	<a href="" target="_blank">
+	<a href="https://facebook.com/BrandonDJohnson8">
         <div class="social-icon-wrapper myFacebookIcon">
            <span class="social-icon icon-myFacebookIcon"></span>
         </div>
     </a>
-    <a href="" target="_blank">
+    <a href="https://github.com/Brandon-Johnson?tab=repositories">
         <div class="social-icon-wrapper myGithubIcon">
             <span class="social-icon icon-myGithubIcon"></span>
         </div>
     </a>
-    <a href="https://www.facebook.com/">
+    <a href="https://www.linkedin.com/in/brandondavidjohnson">
         <div class="social-icon-wrapper myLinkedinIcon">
             <span class="social-icon icon-myLinkedInIcon" ></span>
         </div>
