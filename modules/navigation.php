@@ -20,7 +20,7 @@
         </div>
     </a>
     <a href="https://www.linkedin.com/in/brandondavidjohnson">
-        <div class="social-icon-wrapper myLinkedinIcon">
+        <div class="social-icon-wrapper myLinkedInIcon">
             <span class="social-icon icon-myLinkedInIcon" ></span>
         </div>
     </a>
