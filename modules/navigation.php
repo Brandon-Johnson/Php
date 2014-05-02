@@ -1,4 +1,4 @@
-<link rel="stylesheet" type="text/css" href="http://php-bdj.rhcloud.com/css/template.css"/>
+<link rel="stylesheet" type="text/css" href="/css/template.css"/>
 
 
 <aside class="navigation">
@@ -10,6 +10,8 @@
 		</ul>	
 	</nav>
 	<div class="social-icons">
-		<a href="https://www.facebook.com/BrandonDJohnson8"></a>
+		<a name="myFacebookIcon" href="https://www.facebook.com/BrandonDJohnson8"></a>
+		<a name="myGitHubIcon" href="https://github.com/Brandon-Johnson?tab=repositories"></a>
+		<a name="myLinkedInIcon" href="https://www.linkedin.com/in/brandondavidjohnson"></a>
 	</div>
 </aside>

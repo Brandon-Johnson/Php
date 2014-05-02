@@ -58,7 +58,7 @@ color:#FFB266;
 
 .homelogo
 {
-background-image:url("http://php-bdj.rhcloud.com/images/home-scaled.png");
+background-image:url("/images/icons/home-scaled.png");
 height: 60px;
 background-repeat: no-repeat;
 border-top:2px solid #909090;
@@ -68,5 +68,28 @@ background-position:center;
 
 .homelogo:hover
 {
-background-image:url("http://php-bdj.rhcloud.com/images/home-onhover.png");
+background-image:url("/images/icons/home-onhover.png");
+}
+
+
+.social-icons
+{
+	position:absolute;
+	bottom:15px;
+	width:100px;
+}
+
+#myFacebookIcon
+{
+background-image:url("/images/icons/facebook-icon.png");
+}
+
+#myGithubIcon
+{
+background-image:url("/images/icons/github-scaled.png.png");
+}
+
+#myLinkedInIcon
+{
+background-image:url("/images/icons/linkedin-scaled.png");
 }

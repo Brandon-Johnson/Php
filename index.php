@@ -4,7 +4,7 @@
   <head>
     <title>My Home Page</title>
   
-    <link rel="stylesheet" type="text/css" href="http://php-bdj.rhcloud.com/css/homepage.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/homepage.css"/>
   </head>
 
 <body>
@@ -14,7 +14,7 @@
       <img src="http://php-bdj.rhcloud.com/images/me.jpg" alt="I rock these 3d glasses like no other"/>
       <p><b><i>This is me</i></b></p>
       <br />
-      <img src="http://php-bdj.rhcloud.com/images/Kody.jpg" alt="My Best Friend"/>
+      <img src="/images/Kody.jpg" alt="My Best Friend"/>
       <p><b><i>This is my partner in crime</i></b></p>
   </div>
 
