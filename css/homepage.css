@@ -1,9 +1,10 @@
 #Basics
 {
-	float:right;
+position:center;
+margin-top:200px;
 }
 
 #pictures
 {
-	float:right;
+position:center;
 }
