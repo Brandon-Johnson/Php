@@ -15,7 +15,7 @@ function getData($line)
     $i = explode(" : ", $i);
     $array[$i[0]] = $i[1];
   }
-  return $array
+  return $array;
 }
 
 function getString($array)
