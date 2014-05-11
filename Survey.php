@@ -1,12 +1,3 @@
-<?php
-  session_start();
-    if($_SESSION['taken'])
-    {
-      header('Location: Results.php')
-    }
-
-?>
-
 <!DOCTYPE html>
 <html>
   <head>
