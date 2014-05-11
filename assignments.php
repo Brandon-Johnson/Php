@@ -9,7 +9,7 @@
 
 <body>
 	<?php include 'modules/navigation.php' ?>
-	<div>
+	<div class="Assignments">
 		<a href="/Survey.php">Survey</a>
 	</div>
 </body>
