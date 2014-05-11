@@ -4,7 +4,7 @@
   <head>
     <title>Results</title>
   
-    <link rel="stylesheet" type="text/css" href="/css/homepage.css"/>
+    
   </head>
 
   <body>
