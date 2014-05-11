@@ -1,3 +1,81 @@
+<?
+session_start();
+if ($_SESSION["taken" == true)
+{
+   header("Location: Results.php");
+   die();  
+}
+
+function getData($line)
+{
+  $array = array();
+  $data = explode(" | ", $line);
+
+  foreach ($data as $i)
+  {
+    $i = explode(" : ", $i);
+    $array[$i[0]] = $i[1];
+  }
+  return $array
+}
+
+function getString($array)
+{
+  $items = array();
+  foreach ($array as $key => $data)
+  {
+    $items[] = "$key : $data";
+  }
+  return implode( " | ", $items);
+}
+
+if (isset($_POST['Taken']))
+{
+  $file = fopen("survey.txt", "r+");
+
+  $Super-Power = getData(fgets($file));
+  $OperatingSystem = getData(fgets($file));
+  $PizzaTopping = getData(fgets($file));
+  $Major = getData(fgets($file));
+  
+  if (key_exists($_POST['Super-Power'], $Super-Power))
+  {
+    $Super-Power[$_POST['Super-Power']]++;
+  }
+
+  if (key_exists($_POST['OperatingSystem'], $OperatingSystem))
+  {
+    $OperatingSystem[$_POST['OperatingSystem']]++;
+  }
+
+  if (key_exists($_POST['PizzaTopping'], $PizzaTopping))
+  {
+    $PizzaTopping[$_POST['PizzaTopping']]++;
+  }
+
+  if (key_exists($_POST['Major'], $Major))
+  {
+    $Major[$_POST['Major']]++;
+  }
+
+  file_put_contents("Results.txt", "")
+  $output =  getString($Super-Power);
+  $output = .getString($OperatingSystem);
+  $output = .getString($PizzaTopping);
+  $output = .getString($Major);
+
+  fwrite($file, $output);
+
+  fclose($file);
+
+  $_SESSION['submitted'] = true;
+
+   header("Location: Results.php");
+   die();  
+
+}
+?>
+
 <!DOCTYPE html>
 
 <html>
@@ -10,8 +88,7 @@
   <body>
      <?php include 'modules/navigation.php' ?>
 
-
-     <form id="Survey" method="POST"  action="Results.php">
+     <form id="Survey" method="POST"  action="">
        <h2>What Super Power Would You Want:</h2>
        <input type="radio" name="Super-Power" value="Invisibility">Invisibility<br/>
        <input type="radio" name="Super-Power" value="Flying">Flying<br/>
@@ -34,7 +111,8 @@
        <input type="radio" name="Major" value="Web Design">Web Design<br/>
        <input type="radio" name="Major" value="CIT">CIT<br/>
 
-       <input type="submit" value="Submit form" />
+       <input type="submit" value="Submit form" name="Taken"/>
+       <a href="Results.php">See Results</a>
      </form>
 
   </body>
