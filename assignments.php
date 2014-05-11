@@ -3,8 +3,8 @@
 <html>
 
 <head>
-<title>Assignments</title>
-
+	<title>Assignments</title>
+	<link rel="stylesheet" type="text/css" href="/css/assignments.css"/>
 </head>
 
 <body>
