@@ -10,7 +10,7 @@
 <body>
 	<?php include 'modules/navigation.php' ?>
 	<div>
-		Coming soon!!
+		<a href="/Survey.php">Survey</a>
 	</div>
 </body>
 
