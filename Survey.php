@@ -82,6 +82,7 @@ if (isset($_POST['submit']))
 $title = 'Survey';
 
 $body = <<<HTML
+    <h2>Survey</h2>
     <form method="post" action="">
         
         <fieldset>
