@@ -4,7 +4,7 @@ session_start();
 
 if (isset($_SESSION['Taken'])) 
 {
-    header("Location: Results.php");
+    header("Location: ./Results.php");
 }
 
 function getArray($line) 
@@ -35,7 +35,7 @@ function getLine($array)
 
 if (isset($_POST['submit'])) 
 {
-    $file = fopen('Results.txt', 'r+');
+    $file = fopen('./Results.txt', 'r+');
     
     $os   = getArray(fgets($file));
     $type = getArray(fgets($file));
@@ -73,7 +73,7 @@ if (isset($_POST['submit']))
     fclose($file);
     
     $_SESSION['Taken'] = true;
-    header("Location: Results.php");
+    header("Location: ./Results.php");
     die();
 }
 
