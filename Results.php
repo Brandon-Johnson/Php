@@ -2,7 +2,7 @@
 function getData($line)
 {
   $array = array();
-  $data = explode(" | ", $line);
+  $data = explode("|", $line);
 
   foreach ($data as $i)
   {

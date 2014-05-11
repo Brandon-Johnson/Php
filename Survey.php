@@ -2,14 +2,13 @@
 session_start();
 if ($_SESSION["Taken"] == true)
 {
-   header("Location: Results.php");
-   die();  
+   header("Location: Results.php"); 
 }
 
 function getData($line)
 {
   $array = array();
-  $data = explode(" | ", $line);
+  $data = explode("|", $line);
 
   foreach ($data as $i)
   {
@@ -26,10 +25,10 @@ function getString($array)
   {
     $items[] = "$key : $data";
   }
-  return implode( " | ", $items);
+  return implode( "|", $items);
 }
 
-if (isset($_POST['Taken']))
+if (isset($_POST['Submit']))
 {
   $file = fopen("survey.txt", "r+");
 
@@ -111,7 +110,7 @@ if (isset($_POST['Taken']))
        <input type="radio" name="Major" value="Web Design">Web Design<br/>
        <input type="radio" name="Major" value="CIT">CIT<br/>
 
-       <input type="submit" value="Submit form" name="Taken"/>
+       <input type="submit" value="Submit form" name="Submit"/>
        <a href="Results.php">See Results</a>
      </form>
 
