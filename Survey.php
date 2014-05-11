@@ -1,120 +1,129 @@
 <?php
+
 session_start();
-if (isset($_SESSION["Taken"] == true))
+
+if (isset($_SESSION['Taken'])) 
 {
-   header("Location: Results.php"); 
+    header("Location: Results.php");
 }
 
-function getData($line)
+function getArray($line) 
 {
-  $array = array();
-  $data = explode('|', $line);
-
-  foreach ($data as $i)
-  {
-    $i = explode(" : ", $i);
-    $array[$i[0]] = $i[1];
-  }
-  return $array;
+    $arr = array();
+    $data = explode('|',$line);
+    foreach ($data as $d) 
+    {
+        $d = explode(':', $d);
+        $arr[$d[0]] = $d[1];
+    }
+    return $arr;
 }
 
-function getString($array)
+
+
+function getLine($array) 
 {
-  $items = array();
-  foreach ($array as $key => $data)
-  {
-    $items[] = "$key:$data";
-  }
-  return implode( '|', $items);
+    $items = array();
+    foreach ($array as $key => $item) 
+    {
+        $items[] = "$key:$item";
+    }
+    return implode('|',$items);
 }
 
-if (isset($_POST['Submit']))
+
+
+if (isset($_POST['submit'])) 
 {
-  $file = fopen("Results.txt", "r+");
+    $file = fopen('Results.txt', 'r+');
+    
+    $os   = getArray(fgets($file));
+    $type = getArray(fgets($file));
+    $major = getArray(fgets($file));
+    $phone = getArray(fgets($file));
+    
+    if (key_exists($_POST['os'], $os)) 
+    {
+        $os[$_POST['os']]++;
+    }
+    
+    if (key_exists($_POST['pizza'], $pizza)) 
+    {
+        $pizza[$_POST['pizza']]++;
+    }
+    
+    if (key_exists($_POST['major'], $major)) 
+    {
+        $major[$_POST['major']]++;
+    }
+    
+    if (key_exists($_POST['phone'], $phone)) 
+    {
+        $phone[$_POST['phone']]++;
+    }
+    file_put_contents("survey.txt", "");
+    $output  = getLine($os);
+    $output .= getLine($pizza);
+    $output .= getLine($major);
+    $output .= getLine($phone);
 
-  $Super-Power = getData(fgets($file));
-  $OperatingSystem = getData(fgets($file));
-  $PizzaTopping = getData(fgets($file));
-  $Major = getData(fgets($file));
-  
-  if (key_exists($_POST['Super-Power'], $Super-Power))
-  {
-    $Super-Power[$_POST['Super-Power']]++;
-  }
-
-  if (key_exists($_POST['OperatingSystem'], $OperatingSystem))
-  {
-    $OperatingSystem[$_POST['OperatingSystem']]++;
-  }
-
-  if (key_exists($_POST['PizzaTopping'], $PizzaTopping))
-  {
-    $PizzaTopping[$_POST['PizzaTopping']]++;
-  }
-
-  if (key_exists($_POST['Major'], $Major))
-  {
-    $Major[$_POST['Major']]++;
-  }
-
-  file_put_contents("Results.txt", "");
-  $output =  getString($Super-Power);
-  $output = .getString($OperatingSystem);
-  $output = .getString($PizzaTopping);
-  $output = .getString($Major);
-
-  fwrite($file, $output);
-
-  fclose($file);
-
-  $_SESSION['Taken'] = true;
-
-   header("Location: Results.php");
-   die();  
-
+    
+    fwrite($file, $output);
+    
+    fclose($file);
+    
+    $_SESSION['Taken'] = true;
+    header("Location: Results.php");
+    die();
 }
-
 
 
 
 $title = 'Survey';
 
 $body = <<<HTML
-  
-    <link rel="stylesheet" type="text/css" href="/css/survey.css"/>
-
-     <form id="Survey" method="POST"  action="">
-     <fieldset>
-       <legend>What Super Power Would You Want:</legend>
-       <input type="radio" name="Super-Power" value="Invisibility">Invisibility<br/>
-       <input type="radio" name="Super-Power" value="Flying">Flying<br/>
-       <input type="radio" name="Super-Power" value="SuperStrength">Super Strength<br/>
-      </fieldset>
-
-      <fieldset>
-       <legend>What Operating System:</legend>
-       <input type="radio" name="OperatingSystem" value="Windows">Windows<br/>
-       <input type="radio" name="OperatingSystem" value="Linux">Linux<br/>
-       <input type="radio" name="OperatingSystem" value="Mac">Mac<br/>
-      </fieldset>
-
-      <fieldset>
-       <legend>Pizza Topping</legend>
-       <input type="radio" name="PizzaTopping" value="Pepparoni">Pepparoni<br/>
-       <input type="radio" name="PizzaTopping" value="Bacon">Bacon<br/>
-       <input type="radio" name="PizzaTopping" value="Sausage">Sausage<br/>
-       </fieldset>
-
-      <fieldset>
-       <legend>Major</legend>
-       <input type="radio" name="Major" value="Computer Science">Computer Science<br/>
-       <input type="radio" name="Major" value="Web Design">Web Design<br/>
-       <input type="radio" name="Major" value="CIT">CIT<br/>
-      </fieldset>
-
-       <input type="submit" value="Submit form" name="Submit"/>
-       <a href="Results.php">See Results</a>
-     </form>
+    <form method="post" action="">
+        
+        <fieldset>
+            <legend>Operating System:</legend>
+            <p>
+                <input type="radio" name="os" id="windows" value="Windows" /><label for="win">Windows</label>
+                <input type="radio" name="os" id="linux" value="Linux" /><label for="linux">Linux</label>
+                <input type="radio" name="os" id="mac" value="Mac OS" /><label for="mac">Mac OS</label>
+            </p>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Pizza Topping</legend>
+            <p>
+                <input type="radio" name="pizza" id="Pepparoni" value="Pepparoni" /><label for="Pepparoni">Pepparoni</label>
+                <input type="radio" name="pizza" id="Bacon" value="Bacon" /><label for="Bacon">Bacon</label>
+                <input type="radio" name="pizza" id="Sausage" value="Sausage" /><label for="Sausage">Sausage</label>
+            </p>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Major</legend>
+            <p>
+                <input type="radio" name="major" id="CS" value="CS" /><label for="CS">CS</label>
+                <input type="radio" name="major" id="Web" value="Web" /><label for="Web">Web</label>
+                <input type="radio" name="major" id="CIT" value="CIT" /><label for="CIT">CIT</label>
+            </p>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Phone</legend>
+                <input type="radio" name="phone" id="iPhone" value="iPhone" /><label for="iPhone">iPhone</label>
+                <input type="radio" name="phone" id="Android" value="Android" /><label for="Android">Android</label>
+                <input type="radio" name="phone" id="Other" value="Other" /><label for="Other">Other</label>
+        </fieldset>
+        
+        <p><input type="submit" value="submit" name="submit"/></p>
+    </form>
+    
 HTML;
- include 'modules/navigation.php';
- ?>
+
+
+include 'modules/navigation.php';
+
+?>
