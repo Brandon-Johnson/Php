@@ -57,7 +57,7 @@ if (isset($_POST['Submit']))
     $Major[$_POST['Major']]++;
   }
 
-  file_put_contents("Results.txt", "")
+  file_put_contents("Results.txt", "");
   $output =  getString($Super-Power);
   $output = .getString($OperatingSystem);
   $output = .getString($PizzaTopping);
