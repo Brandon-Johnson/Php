@@ -73,46 +73,49 @@ if (isset($_POST['Submit']))
    die();  
 
 }
-?>
 
-<!DOCTYPE html>
 
-<html>
-  <head>
-    <title>Survey</title>
+
+
+$title = 'Survey';
+
+$body = <<<HTML
   
     <link rel="stylesheet" type="text/css" href="/css/survey.css"/>
-  </head>
 
-  <body>
-     <?php include 'modules/navigation.php' ?>
+    include 'modules/navigation.php'
 
      <form id="Survey" method="POST"  action="">
-       <h2>What Super Power Would You Want:</h2>
+     <fieldset>
+       <legend>What Super Power Would You Want:</legend>
        <input type="radio" name="Super-Power" value="Invisibility">Invisibility<br/>
        <input type="radio" name="Super-Power" value="Flying">Flying<br/>
        <input type="radio" name="Super-Power" value="SuperStrength">Super Strength<br/>
-       
+      </fieldset>
 
-       <h2>What Operating System:</h2>
+      <fieldset>
+       <legend>What Operating System:</legend>
        <input type="radio" name="OperatingSystem" value="Windows">Windows<br/>
        <input type="radio" name="OperatingSystem" value="Linux">Linux<br/>
        <input type="radio" name="OperatingSystem" value="Mac">Mac<br/>
+      </fieldset>
 
-
-       <h2>Pizza Topping</h2>
+      <fieldset>
+       <legend>Pizza Topping</legend>
        <input type="radio" name="PizzaTopping" value="Pepparoni">Pepparoni<br/>
        <input type="radio" name="PizzaTopping" value="Bacon">Bacon<br/>
        <input type="radio" name="PizzaTopping" value="Sausage">Sausage<br/>
+       </fieldset>
 
-       <h2>Major</h2>
+      <fieldset>
+       <legend>Major</legend>
        <input type="radio" name="Major" value="Computer Science">Computer Science<br/>
        <input type="radio" name="Major" value="Web Design">Web Design<br/>
        <input type="radio" name="Major" value="CIT">CIT<br/>
+      </fieldset>
 
        <input type="submit" value="Submit form" name="Submit"/>
        <a href="Results.php">See Results</a>
      </form>
-
-  </body>
-</html>
+HTML;
+ ?>
