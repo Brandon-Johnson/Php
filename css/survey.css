@@ -1,7 +1,8 @@
-body
+#survey
 {
+margin-left:400px;
 font-family: Impact, Charcoal, sans-serif;
+font-weight:lighter;
 height:100%;
-text-align:center;
-
+text-align:left;
 }
