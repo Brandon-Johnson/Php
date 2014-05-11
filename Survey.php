@@ -1,6 +1,6 @@
 <?
 session_start();
-if ($_SESSION["taken" == true)
+if ($_SESSION["Taken"] == true)
 {
    header("Location: Results.php");
    die();  
@@ -68,7 +68,7 @@ if (isset($_POST['Taken']))
 
   fclose($file);
 
-  $_SESSION['submitted'] = true;
+  $_SESSION['Taken'] = true;
 
    header("Location: Results.php");
    die();  
