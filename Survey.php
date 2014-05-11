@@ -1,3 +1,12 @@
+<?php
+  session_start();
+  if($_SESSION['submitted'] == true)
+  {
+    header('Location: Results.php');
+  }
+
+?>
+
 <!DOCTYPE html>
 <html>
   <head>
