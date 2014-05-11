@@ -1,6 +1,6 @@
 <?php
 session_start();
-if ($_SESSION["Taken"] == true)
+if (isset($_SESSION["Taken"] == true))
 {
    header("Location: Results.php"); 
 }
@@ -8,7 +8,7 @@ if ($_SESSION["Taken"] == true)
 function getData($line)
 {
   $array = array();
-  $data = explode("|", $line);
+  $data = explode('|', $line);
 
   foreach ($data as $i)
   {
@@ -23,14 +23,14 @@ function getString($array)
   $items = array();
   foreach ($array as $key => $data)
   {
-    $items[] = "$key : $data";
+    $items[] = "$key:$data";
   }
-  return implode( "|", $items);
+  return implode( '|', $items);
 }
 
 if (isset($_POST['Submit']))
 {
-  $file = fopen("survey.txt", "r+");
+  $file = fopen("Results.txt", "r+");
 
   $Super-Power = getData(fgets($file));
   $OperatingSystem = getData(fgets($file));
@@ -83,8 +83,6 @@ $body = <<<HTML
   
     <link rel="stylesheet" type="text/css" href="/css/survey.css"/>
 
-    include 'modules/navigation.php'
-
      <form id="Survey" method="POST"  action="">
      <fieldset>
        <legend>What Super Power Would You Want:</legend>
@@ -118,4 +116,5 @@ $body = <<<HTML
        <a href="Results.php">See Results</a>
      </form>
 HTML;
+ include 'modules/navigation.php';
  ?>
