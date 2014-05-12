@@ -2,26 +2,21 @@
 {
 	margin-left:200px;
 	margin-top:200px;
-	height:75%;
-	min-height:640px;
-	min-width:640px;
-	width:50%;
+	height:400px;
+	width:780px;
 }
 
 .blue
 {
-	width:15px;
 	background-image:url("/images/blueBar.png");
 }
 
 .red
 {
 	background-image:url("/images/redBar.jpg");
-	width:15px;
 }
 
 .green
 {
 	background-image:url("/images/GreenBar.jpg");
-	width:15px;
 }
