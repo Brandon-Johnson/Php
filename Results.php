@@ -147,25 +147,25 @@
   <body>
     <div id="results">
       <?php
-      echo "<h2>Operating System</h2>";
+      echo "<h4>Operating System</h4>";
       echo "<div style=\"position:relative; width:$windowP%;\" class=\"blue\"> Windows $windowP% </div>";
       echo "<div style=\"position:relative; width:$macP%;\" class=\"red\"> Mac OSx $macP% </div>";
       echo "<div style=\"position:relative; width:$linuxP%;\" class=\"green\"> Linux $linuxP% </div>";
       echo "<br/><br/>";
 
-      echo "<h2>Movie Genre</h2>";
+      echo "<h4>Movie Genre</h4>";
       echo "<div style=\"position:relative; width:$comedyP%;\" class=\"blue\">Comedy $comedyP% </div>";
       echo "<div style=\"position:relative; width:$actionP%;\" class=\"red\">Action $actionP% </div>";
       echo "<div style=\"position:relative; width:$horrorP%;\" class=\"green\">Horror $horrorP% </div>";
       echo "<br/><br/>";
 
-      echo "<h2>Pizza Topping</h2>";
+      echo "<h4>Pizza Topping</h4>";
       echo "<div style=\"position:relative; width:$pepP%;\" class=\"blue\">Pepparoni $pepP% </div>";
       echo "<div style=\"position:relative; width:$baconP%;\" class=\"red\">Bacon $baconP% </div>";
       echo "<div style=\"position:relative; width:$hamP%;\" class=\"green\">Ham $hamP% </div>";
       echo "<br/><br/>";
 
-      echo "<h2>Major</h2>";
+      echo "<h4>Major</h4>";
       echo "<div style=\"position:relative; width:$csP%;\" class=\"blue\">Computer Science $csP% </div>";
       echo "<div style=\"position:relative; width:$citP%;\" class=\"red\">CIT $citP% </div>";
       echo "<div style=\"position:relative; width:$weP%;\" class=\"green\">Web Engineering $weP% </div>";
