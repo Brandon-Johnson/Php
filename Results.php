@@ -145,7 +145,7 @@
   </head>
 
   <body>
-    <div style="margin-left:300px;"><h1>Results!</h1></div>
+   
     <div id="results">
       <?php
       echo "<h3>Operating System</h3>";
