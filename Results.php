@@ -149,26 +149,26 @@
     <div id="Table">
       <?php
 
+      echo "<br/><br/>"
       echo "<div id=\"labels\">";
-      echo "<h3></h3>";
       echo "<div>Windows</div>";
       echo "<div>Mac OSx</div>";
       echo "<div>Linux</div>";
 
-      echo "<h3></h3>";
-      echo "<div>Windows</div>";
-      echo "<div>Mac OSx</div>";
-      echo "<div>Linux</div>";
+      echo "<br/><br/>"
+      echo "<div>Comedy</div>";
+      echo "<div>Action</div>";
+      echo "<div>Horror</div>";
 
-      echo "<h3></h3>";
-      echo "<div>Windows</div>";
-      echo "<div>Mac OSx</div>";
-      echo "<div>Linux</div>";
+     echo "<br/><br/>"
+      echo "<div>Pepparoni</div>";
+      echo "<div>Bacon</div>";
+      echo "<div>Ham</div>";
 
-      echo "<h3></h3>";
-      echo "<div>Windows</div>";
-      echo "<div>Mac OSx</div>";
-      echo "<div>Linux</div>";
+      echo "<br/><br/>"
+      echo "<div>Computer Science</div>";
+      echo "<div>CIT</div>";
+      echo "<div>Web Engineering</div>";
 
       echo "</div>";
 
