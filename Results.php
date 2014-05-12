@@ -20,10 +20,6 @@
   $cit     = fgets($file);
   $we      = fgets($file);
 
-  echo "<div margin-left:200px>$windows";
-  echo "$comedy";
-  echo "$bacon";
-  echo "$cs</div>";
   fclose($file);
 
   if (isset($_POST["submit"]))
@@ -151,27 +147,21 @@
   <body>
     <div id="results">
       <?php
-      echo "<p>$windowP</p>";
-      echo "<p>$linuxP</p>";
-      echo "<p>$macP</p>";
+      echo "<div style=\"position:relative; height:$windowP%;\"class=\"blue\"> $windows </div>";
+      echo "<div class=\"red\"> $mac </div>";
+      echo "<div class=\"green\"> $linux</div>";
 
+      echo "<div class=\"blue\">$comedy </div>";
+      echo "<div class=\"red\">$action </div>";
+      echo "<div class=\"green\">$horror </div>";
 
+      echo "<div class=\"blue\">$pep </div>";
+      echo "<div class=\"red\">$bacon </div>";
+      echo "<div class=\"green\">$ham </div>";
 
-      echo "<span style=\"height:$windowP%;\"class=\"blue\"> $windows </span>";
-      echo "<span class=\"red\"> $mac </span>";
-      echo "<span class=\"green\"> $linux</span>";
-
-      echo "<span class=\"blue\">$comedy </span>";
-      echo "<span class=\"red\">$action </span>";
-      echo "<span class=\"green\">$horror </span>";
-
-      echo "<span class=\"blue\">$pep </span>";
-      echo "<span class=\"red\">$bacon </span>";
-      echo "<span class=\"green\">$ham </span>";
-
-      echo "<span class=\"blue\">$cs </span>";
-      echo "<span class=\"red\">$cit <span>";
-      echo "<span class=\"green\">$we </span>";
+      echo "<div class=\"blue\">$cs </div>";
+      echo "<div class=\"red\">$cit <div>";
+      echo "<div class=\"green\">$we </div>";
 
       ?>
     </div>
