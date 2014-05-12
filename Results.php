@@ -147,7 +147,7 @@
   <body>
     <div id="results">
       <?php
-      echo "<div style=\"position:relative; height:$windowP%;\"class=\"blue\"> $windows </div>";
+      echo "<div style=\"position:relative; width:$windowP%;\"class=\"blue\"> $windows </div>";
       echo "<div class=\"red\"> $mac </div>";
       echo "<div class=\"green\"> $linux</div>";
 
