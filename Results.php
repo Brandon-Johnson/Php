@@ -147,21 +147,21 @@
   <body>
     <div id="results">
       <?php
-      echo "<div style=\"position:relative; width:$windowP%;\"class=\"blue\"> $windows </div>";
-      echo "<div class=\"red\"> $mac </div>";
-      echo "<div class=\"green\"> $linux</div>";
+      echo "<div style=\"position:relative; width:$windowP%;\" class=\"blue\"> $windows </div>";
+      echo "<div style=\"position:relative; width:$windowP%;\" class=\"red\"> $mac </div>";
+      echo "<div style=\"position:relative; width:$windowP%;\" class=\"green\"> $linux</div>";
 
-      echo "<div class=\"blue\">$comedy </div>";
-      echo "<div class=\"red\">$action </div>";
-      echo "<div class=\"green\">$horror </div>";
+      echo "<div style=\"position:relative; width:$windowP%;\" class=\"blue\">$comedy </div>";
+      echo "<div style=\"position:relative; width:$windowP%;\" class=\"red\">$action </div>";
+      echo "<div style=\"position:relative; width:$windowP%;\" class=\"green\">$horror </div>";
 
-      echo "<div class=\"blue\">$pep </div>";
-      echo "<div class=\"red\">$bacon </div>";
-      echo "<div class=\"green\">$ham </div>";
+      echo "<div style=\"position:relative; width:$windowP%;\" class=\"blue\">$pep </div>";
+      echo "<div style=\"position:relative; width:$windowP%;\" class=\"red\">$bacon </div>";
+      echo "<div style=\"position:relative; width:$windowP%;\" class=\"green\">$ham </div>";
 
-      echo "<div class=\"blue\">$cs </div>";
-      echo "<div class=\"red\">$cit <div>";
-      echo "<div class=\"green\">$we </div>";
+      echo "<div style=\"position:relative; width:$windowP%;\" class=\"blue\">$cs </div>";
+      echo "<div style=\"position:relative; width:$windowP%;\" class=\"red\">$cit <div>";
+      echo "<div style=\"position:relative; width:$windowP%;\" class=\"green\">$we </div>";
 
       ?>
     </div>
