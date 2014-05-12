@@ -121,9 +121,9 @@
   $totalMovie = $comedy + $action + +horror;
   $totalMajor = $cs + $cit + $we;
 
-  $windowP = round($windows / $totalOS) * 100;
-  $macP = round($mac / $totalOS) * 100;
-  $linuxP = round($linux / $totalOS) * 100;
+  $windowP = round($windows * 100 / $totalOS);
+  $macP = round($mac * 100 / $totalOS);
+  $linuxP = round($linux * 100/ $totalOS);
 
   $pepP = round($pep / $totalPizza) * 100;
   $baconP = round($bacon / $totalPizza) * 100;
@@ -133,9 +133,9 @@
   $horrorP = round($horror / $totalMovie) * 100;
   $actionP = round($action / $totalMovie) * 100;
 
-  $csP = round($cs / $totalMajor) * 100;
-  $citP = round($cit / $totalMajor) * 100;
-  $weP = round($we / $totalMajor) * 100;
+  $csP = round($cs * 100/ $totalMajor) ;
+  $citP = round($cit * 100/ $totalMajor) ;
+  $weP = round($we * 100 / $totalMajor) ;
 ?>
 
 
@@ -159,7 +159,7 @@
 
       echo "<span class=\"blue\"> $windows </span>";
       echo "<span class=\"red\"> $mac </span>";
-      echo "<span class=\"green\"> $linux></span>";
+      echo "<span class=\"green\"> $linux</span>";
 
       echo "<span class=\"blue\">$comedy </span>";
       echo "<span class=\"red\">$action </span>";
