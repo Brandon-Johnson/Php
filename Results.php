@@ -149,23 +149,23 @@
     <div id="Table">
       <?php
 
-      echo "<br/><br/>"
+      echo "<br/><br/>";
       echo "<div id=\"labels\">";
       echo "<div>Windows</div>";
       echo "<div>Mac OSx</div>";
       echo "<div>Linux</div>";
 
-      echo "<br/><br/>"
+      echo "<br/><br/>";
       echo "<div>Comedy</div>";
       echo "<div>Action</div>";
       echo "<div>Horror</div>";
 
-     echo "<br/><br/>"
+     echo "<br/><br/>";
       echo "<div>Pepparoni</div>";
       echo "<div>Bacon</div>";
       echo "<div>Ham</div>";
 
-      echo "<br/><br/>"
+      echo "<br/><br/>";
       echo "<div>Computer Science</div>";
       echo "<div>CIT</div>";
       echo "<div>Web Engineering</div>";
@@ -194,7 +194,7 @@
       echo "<div style=\"position:relative; width:$citP%;\" class=\"red\">$citP% </div>";
       echo "<div style=\"position:relative; width:$weP%;\" class=\"green\">$weP% </div>";
 
-      echo "</div>"
+      echo "</div>";
       ?>
     </div>
   </body>
