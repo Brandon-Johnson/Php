@@ -173,7 +173,7 @@
       echo "<span class=\"red\">$cit <span>";
       echo "<span class=\"green\">$we </span>";
 
-      >?
+      ?>
     </div>
   </body>
 </html>
