@@ -123,18 +123,26 @@
   <title>Results</title>
   <?php include 'modules/navigation.php' ?>
 
-  <link rel="stylesheet" type="text/css" href="/css/assignments.css"/>
+  <link rel="stylesheet" type="text/css" href="/css/results.css"/>
   </head>
 
   <body>
-    <div id="assignments">
-    Display Results Here
-    <?php 
-    echo "$windows";
-    echo "$comedy";
-    echo "$bacon";
-    echo "$cs";
-    ?>
-  </div>
+    <div id="results">
+      <p class="blue"><?php echo "$windows" ?></p>
+      <p class="red"><?php echo"$mac" ?></p>
+      <p class="green"><?php echo "$linux" ?></p>
+
+      <p class="blue"><?php echo "$comedy" ?></p>
+      <p class="red"><?php echo"$action" ?></p>
+      <p class="green"><?php echo "$horror" ?></p>
+
+      <p class="blue"><?php echo "$pep" ?></p>
+      <p class="red"><?php echo"$bacon" ?></p>
+      <p class="green"><?php echo "$ham" ?></p>
+
+      <p class="blue"><?php echo "$cs" ?></p>
+      <p class="red"><?php echo"$cit" ?></p>
+      <p class="green"><?php echo "$we" ?></p>
+    </div>
   </body>
 </html>
