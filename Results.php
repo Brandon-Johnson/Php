@@ -1,0 +1,125 @@
+<?php
+  funcion submitted()
+  {
+    session_start();
+    $_SESSION['submitted'] = true;
+  }
+
+  #read all numbers in
+  $filename = "Results.txt";
+  $file = fopen($filename, "r");
+
+  
+  $windows = fgets($file);
+  $mac     = fgets($file);
+  $linux   = fgets($file);
+
+  $comedy  = fgets($file);
+  $action  = fgets($file);
+  $horror  = fgets($file);
+
+  $pep     = fgets($file);
+  $bacon   = fgets($file);
+  $ham     = fgets($file);
+
+  $cs      = fgets($file);
+  $cit     = fgets($file);
+  $we      = fgets($file);
+
+  fclose($file);
+
+  if (isset($_POST['submit']))
+  {
+    submitted();
+
+    $file = fopen($filename, "w");
+
+    switch($_POST["os"])
+    {
+      case 'windows'
+        (integer)$windows += 1;
+        $windows .= "\n";
+      case 'linux'
+        (integer)$linux += 1;
+        $linux .= "\n";
+
+      case 'mac'
+        (integer)$mac += 1;
+        $mac .= "\n";
+    }
+
+    switch($_POST["movie"])
+    {
+      case 'comedy'
+        (integer)$comedy += 1;
+        $comedy .= "\n";
+      case 'action'
+        (integer)$action+= 1;
+        $action .= "\n";
+      case 'horror'
+        (integer)$horror += 1;
+        $horror .= "\n";
+    }
+
+    switch($_POST["pizza"])
+    {
+      case 'pep'
+        (integer)$pep += 1;
+        $pep .= "\n";
+      case 'bacon'
+        (integer)$bacon += 1;
+        $bacon .= "\n";
+
+      case 'ham'
+        (integer)$ham += 1;
+        $ham .= "\n";
+    }
+
+    switch($_POST["major"])
+    {
+      case 'cs'
+        (integer)$cs += 1;
+        $cs .= "\n";
+      case 'cit'
+        (integer)$cit += 1;
+        $cit .= "\n";
+
+      case 'we'
+        (integer)$we += 1;
+        $we .= "\n";
+    }
+
+    fwrite($file, $windows);
+    fwrite($file, $mac);
+    fwrite($file, $linux);
+
+    fwrite($file, $comedy);
+    fwrite($file, $action);
+    fwrite($file, $horror);
+
+    fwrite($file, $pep);
+    fwrite($file, $bacon);
+    fwrite($file, $ham);
+
+    fwrite($file, $cs);
+    fwrite($file, $cit);
+    fwrite($file, $we);
+
+    fclose($file);
+
+  }
+  include 'modules/navigation.php'
+  ?>
+
+
+  <!DOCTYPE html>
+<html>
+  <head>
+  <title>Results</title>
+
+  </head>
+
+  <body>
+    Display Results Here
+  </body>
+</html>
