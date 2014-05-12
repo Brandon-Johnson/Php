@@ -30,15 +30,15 @@
     {
       case 'windows':
         (integer)$windows += 1;
-        $windows .= "";
+        $windows .= "\n";
         break;
       case 'linux':
         (integer)$linux += 1;
-        $linux .= "";
+        $linux .= "\n";
         break;
       case 'mac':
         (integer)$mac += 1;
-        $mac .= "";
+        $mac .= "\n";
         break;
     }
 
@@ -46,15 +46,15 @@
     {
       case 'comedy':
         (integer)$comedy += 1;
-        $comedy .= "";
+        $comedy .= "\n";
         break;
       case 'action':
         (integer)$action+= 1;
-        $action .= "";
+        $action .= "\n";
         break;
       case 'horror':
         (integer)$horror += 1;
-        $horror .= "";
+        $horror .= "\n";
         break;
     }
 
@@ -62,15 +62,15 @@
     {
       case 'pep':
         (integer)$pep += 1;
-        $pep .= "";
+        $pep .= "\n";
         break;
       case 'bacon':
         (integer)$bacon += 1;
-        $bacon .= "";
+        $bacon .= "\n";
         break;
       case 'ham':
         (integer)$ham += 1;
-        $ham .= "";
+        $ham .= "\n";
         break;
     }
 
@@ -78,15 +78,15 @@
     {
       case 'cs':
         (integer)$cs += 1;
-        $cs .= "";
+        $cs .= "\n";
         break;
       case 'cit':
         (integer)$cit += 1;
-        $cit .= "";
+        $cit .= "\n";
         break;
       case 'we':
         (integer)$we += 1;
-        $we .= "";
+        $we .= "\n";
         break;
     }
 
@@ -150,25 +150,24 @@
       <?php
 
       echo "<div id=\"labels\">";
-      echo "<br/><br/>"
       echo "<div>Windows</div>";
       echo "<div>Mac OSx</div>";
       echo "<div>Linux</div>";
 
-      echo "<br/><br/><br/>";
+      echo "<br/><br/>";
       echo "<div>Comedy</div>";
       echo "<div>Action</div>";
       echo "<div>Horror</div>";
 
-      echo "<br/><br/><br/>";
+      echo "<br/><br/>";
       echo "<div>Pepparoni</div>";
       echo "<div>Bacon</div>";
       echo "<div>Ham</div>";
 
-      echo "<br/><br/><br/>";
-      echo "<div>Comp Sci</div>";
+      echo "<br/><br/>";
+      echo "<div>Comp Science</div>";
       echo "<div>CIT</div>";
-      echo "<div>Web Design</div>";
+      echo "<div>Web Engineering</div>";
 
       echo "</div>";
 
