@@ -1,8 +1,7 @@
 #results
 {
-	background-color:#BDBDBD;
-	opacity:0.6;
-	filter:alpha(opacity=60);
+	background:#7f7f7f;
+	background:rgba(255, 255, 255, .6);
 	margin-left:200px;
 	margin-top:200px;
 	height:400px;
