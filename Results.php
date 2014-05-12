@@ -145,7 +145,6 @@
   </head>
 
   <body>
-   
     <div id="results">
       <?php
       echo "<h3>Operating System</h3>";
@@ -156,7 +155,7 @@
       echo "<h3>Movie Genre</h3>";
       echo "<div style=\"position:relative; width:$comedyP%;\" class=\"blue\">Comedy $comedyP% </div>";
       echo "<div style=\"position:relative; width:$actionP%;\" class=\"red\">Action $actionP% </div>";
-      echo "<div style=\"position:relative; width:$horrorP%;\" class=\"green\">Horror $horrorP% </div>"
+      echo "<div style=\"position:relative; width:$horrorP%;\" class=\"green\">Horror $horrorP% </div>";
 
       echo "<h3>Pizza Topping</h3>";
       echo "<div style=\"position:relative; width:$pepP%;\" class=\"blue\">Pepparoni $pepP% </div>";
