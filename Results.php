@@ -146,8 +146,34 @@
 
   <body>
     <div id="header"><h1>Results</h1></div>
-    <div id="results">
+    <div id="Table">
       <?php
+
+      echo "<div id=\"labels\">";
+      echo "<h3><h3>";
+      echo "<div>Windows</div>";
+      echo "<div>Mac OSx</div>";
+      echo "<div>Linux</div>";
+
+      echo "<h3></h3>";
+      echo "<div>Windows</div>";
+      echo "<div>Mac OSx</div>";
+      echo "<div>Linux</div>";
+
+      echo "<h3></h3>";
+      echo "<div>Windows</div>";
+      echo "<div>Mac OSx</div>";
+      echo "<div>Linux</div>";
+
+      echo "<h3></h3>";
+      echo "<div>Windows</div>";
+      echo "<div>Mac OSx</div>";
+      echo "<div>Linux</div>";
+
+      echo "</div>";
+
+      echo "<div id=\"data\">";
+
       echo "<h3>Operating System</h3>";
       echo "<div style=\"position:relative; width:$windowP%;\" class=\"blue\"> Windows $windowP% </div>";
       echo "<div style=\"position:relative; width:$macP%;\" class=\"red\"> Mac OSx $macP% </div>";
@@ -168,6 +194,7 @@
       echo "<div style=\"position:relative; width:$citP%;\" class=\"red\">CIT $citP% </div>";
       echo "<div style=\"position:relative; width:$weP%;\" class=\"green\">Web Engineering $weP% </div>";
 
+      echo "</div>"
       ?>
     </div>
   </body>

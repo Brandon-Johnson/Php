@@ -3,12 +3,24 @@ body
 font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
 }
 
-#results
+#Table
 {
 background:rgba(100, 100, 100, .6);
 margin-left:200px;
 height:500px;
 width:780px;
+}
+
+#labels
+{
+margin-left:205px;
+width:50px;
+}
+
+#data
+{
+margin-left:255px;
+width:730px;
 }
 
 #header
