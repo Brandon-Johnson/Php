@@ -20,10 +20,10 @@
   $cit     = fgets($file);
   $we      = fgets($file);
 
-  echo "$windows";
+  echo "<div margin-left:200px>$windows";
   echo "$comedy";
   echo "$bacon";
-  echo "$cs";
+  echo "$cs</div>";
   fclose($file);
 
   if (isset($_POST["submit"]))
@@ -128,10 +128,12 @@
   <body>
     <div id="assignments">
     Display Results Here
+    <?php 
     echo "$windows";
     echo "$comedy";
     echo "$bacon";
     echo "$cs";
+    ?>
   </div>
   </body>
 </html>
