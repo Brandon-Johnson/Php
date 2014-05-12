@@ -111,6 +111,7 @@
     fwrite($file, $we);
 
     fclose($file);
+    session_start();
     $_SESSION["submitted"] = true;
   }
 ?>

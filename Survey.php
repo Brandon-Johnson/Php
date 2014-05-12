@@ -1,6 +1,6 @@
 <?php
   session_start();
-  if($_SESSION['submitted'] == true)
+  if(isset($_SESSION['submitted']))
   {
     header('Location: Results.php');
     die();
