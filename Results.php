@@ -152,21 +152,25 @@
       echo "<div id=\"labels\">";
 
       echo "<br/><br/>";
+
       echo "<div>Windows</div>";
       echo "<div>Mac OSx</div>";
       echo "<div>Linux</div>";
 
-      echo "<br/><br/><br/";
+      echo "<br/><br/><br/>";
+
       echo "<div>Comedy</div>";
       echo "<div>Action</div>";
       echo "<div>Horror</div>";
 
       echo "<br/><br/><br/>";
+
       echo "<div>Pepparoni</div>";
       echo "<div>Bacon</div>";
       echo "<div>Ham</div>";
 
       echo "<br/><br/><br/>";
+
       echo "<div>Comp Sci</div>";
       echo "<div>CIT</div>";
       echo "<div>Web Design</div>";
