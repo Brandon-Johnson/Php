@@ -22,7 +22,7 @@
 
   fclose($file);
 
-  if (isset($_POST["submit"]))
+  if (isset($_POST["Submit"]))
   {
     $file = fopen($filename, "w");
 
