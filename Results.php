@@ -114,6 +114,28 @@
     session_start();
     $_SESSION["submitted"] = true;
   }
+
+
+  $totalOS = $windows + $mac + $linux;
+  $totalPizza = $pep + $bacon + $ham;
+  $totalMovie = $comedy + $action + +horror;
+  $totalMajor = $cs + $cit + $we;
+
+  $windowP = round($windows / $totalOS) * 100;
+  $macP = round($mac / $totalOS) * 100;
+  $linuxP = round($linux / $totalOS) * 100;
+
+  $pepP = round($pep / $totalPizza) * 100;
+  $baconP = round($bacon / $totalPizza) * 100;
+  $hamP = round($ham / $totalPizza) * 100;
+
+  $comedyP = round($comedy / $totalMovie) * 100;
+  $horrorP = round($horror / $totalMovie) * 100;
+  $actionP = round($action / $totalMovie) * 100;
+
+  $csP = round($cs / $totalMajor) * 100;
+  $citP = round($cit / $totalMajor) * 100;
+  $weP = round($we / $totalMajor) * 100;
 ?>
 
 
@@ -128,21 +150,30 @@
 
   <body>
     <div id="results">
-      <span class="blue"><?php echo "$windows" ?></span>
-      <span class="red"><?php echo"$mac" ?></span>
-      <span class="green"><?php echo "$linux" ?></span>
+      <?php
+      echo "<p>windowP</p>"
+      echo "<p>linuxP</p>"
+      echo "<p>macP</p>"
 
-      <span class="blue"><?php echo "$comedy" ?></span>
-      <span class="red"><?php echo"$action" ?></span>
-      <span class="green"><?php echo "$horror" ?></span>
+      
 
-      <span class="blue"><?php echo "$pep" ?></span>
-      <span class="red"><?php echo"$bacon" ?></span>
-      <span class="green"><?php echo "$ham" ?></span>
+      echo "<span class=\"blue\"> $windows </span>"
+      echo "<span class=\"red\"> $mac </span>"
+      echo "<span class=\"green\"> $linux></span>"
 
-      <span class="blue"><?php echo "$cs" ?></span>
-      <span class="red"><?php echo"$cit" ?></span>
-      <span class="green"><?php echo "$we" ?></span>
+      echo "<span class=\"blue\">$comedy </span>"
+      echo "<span class=\"red\">$action </span>"
+      echo "<span class=\"green\">$horror </span>"
+
+      echo "<span class=\"blue\">$pep </span>"
+      echo "<span class=\"red\">$bacon </span>"
+      echo "<span class=\"green\">$ham </span>"
+
+      echo "<span class=\"blue\">$cs </span>"
+      echo "<span class=\"red\">$cit <span>"
+      echo "<span class=\"green\">$we </span>"
+
+      >?
     </div>
   </body>
 </html>
