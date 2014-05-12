@@ -1,10 +1,4 @@
 <?php
-  funcion submitted()
-  {
-    session_start();
-    $_SESSION['submitted'] = true;
-  }
-
   #read all numbers in
   $filename = "Results.txt";
   $file = fopen($filename, "r");
@@ -28,10 +22,8 @@
 
   fclose($file);
 
-  if (isset($_POST['submit']))
+  if (isset($_POST["submit"]))
   {
-    submitted();
-
     $file = fopen($filename, "w");
 
     switch($_POST["os"])
@@ -115,7 +107,7 @@
     fwrite($file, $we);
 
     fclose($file);
-
+    $_SESSION["submitted"] = true;
   }
 ?>
 
