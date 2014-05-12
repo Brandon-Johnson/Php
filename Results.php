@@ -150,7 +150,7 @@
       echo "<div style=\"position:relative; width:$windowP%;\" class=\"blue\"> Windows $windowsP% </div>";
       echo "<div style=\"position:relative; width:$macP%;\" class=\"red\"> $mac </div>";
       echo "<div style=\"position:relative; width:$linuxP%;\" class=\"green\"> $linux</div>";
-      echo "<br/><br/>"
+      echo "<br/><br/>";
 
       echo "<div style=\"position:relative; width:$comedyP%;\" class=\"blue\">$comedy </div>";
       echo "<div style=\"position:relative; width:$actionP%;\" class=\"red\">$action </div>";
