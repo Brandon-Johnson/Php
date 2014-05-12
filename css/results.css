@@ -11,17 +11,17 @@
 .blue
 {
 	width:15px;
-	background-color:blue;
+	background-image:url("/images/blueBar.png");
 }
 
 .red
 {
-	background-color:red;
+	background-image:url("/images/redBar.jpg");
 	width:15px;
 }
 
 .green
 {
-	background-color:green;
+	background-image:url("/images/GreenBar.jpg");
 	width:15px;
 }
