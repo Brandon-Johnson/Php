@@ -20,7 +20,7 @@
 
     <div id="Survey">
       <h1>Survey</h1>
-      <form action="Results.php" method="POST">
+      <form action="Results.php" method="post">
         <label for="os">Favorite Operating System</lable><br/>
         <input type="radio" name="os" value="windows">Windows</input><br/>
         <input type="radio" name="os" value="mac">Mac OSx</input><br/>
