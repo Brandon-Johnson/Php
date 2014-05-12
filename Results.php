@@ -151,7 +151,7 @@
       echo "<h3>Operating System</h3>";
       echo "<div style=\"position:relative; width:$windowP%;\" class=\"blue\"> Windows $windowP% </div>";
       echo "<div style=\"position:relative; width:$macP%;\" class=\"red\"> Mac OSx $macP% </div>";
-      echo "<div style=\"position:relative; width:$linuxP%;\" class=\"green\"> Linux $linuxP% </div>";
+      echo "<div style=\"position:relative; width:$linuxP%;\" class=\"green\"> Linux $linuxP%</div>";
       
       echo "<h3>Movie Genre</h3>";
       echo "<div style=\"position:relative; width:$comedyP%;\" class=\"blue\">Comedy $comedyP% </div>";
