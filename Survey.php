@@ -41,7 +41,7 @@
         <input type="radio" name="major" value="cit">CIT</input><br/>
         <input type="radio" name="major" value="we">Web Engineering</input><br/>
 
-        <input type="submit" value="submit" name="Submit">
+        <input type="submit" value="submit" name="submit">
       </form>
       <br/>
       <a href="Results.php">View Results</a>

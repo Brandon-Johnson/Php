@@ -20,9 +20,13 @@
   $cit     = fgets($file);
   $we      = fgets($file);
 
+  echo "$windows";
+echo "$comedy";
+echo "$bacon";
+echo "$cs";
   fclose($file);
 
-  if (isset($_POST["Submit"]))
+  if (isset($_POST["submit"]))
   {
     $file = fopen($filename, "w");
 
