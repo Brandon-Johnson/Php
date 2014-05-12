@@ -157,7 +157,7 @@
 
 
 
-      echo "<span style=\"height:$windowsP%;\"class=\"blue\"> $windows </span>";
+      echo "<span style=\"height:$windowP%;\"class=\"blue\"> $windows </span>";
       echo "<span class=\"red\"> $mac </span>";
       echo "<span class=\"green\"> $linux</span>";
 
