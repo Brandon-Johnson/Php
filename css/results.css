@@ -13,14 +13,14 @@ width:780px;
 
 #labels
 {
-margin-left:205px;
 width:50px;
+float:left;
 }
 
 #data
 {
-margin-left:255px;
-width:730px;
+margin-left:55px;
+width:725px;
 }
 
 #header
