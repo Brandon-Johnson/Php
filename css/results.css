@@ -11,14 +11,17 @@
 .blue
 {
 	width:15px;
+	background-color:blue;
 }
 
 .red
 {
+	background-color:red;
 	width:15px;
 }
 
 .green
 {
+	background-color:green;
 	width:15px;
 }

@@ -125,13 +125,13 @@
   $macP = round($mac * 100 / $totalOS);
   $linuxP = round($linux * 100/ $totalOS);
 
-  $pepP = round($pep / $totalPizza) * 100;
-  $baconP = round($bacon / $totalPizza) * 100;
-  $hamP = round($ham / $totalPizza) * 100;
+  $pepP = round($pep * 100 / $totalPizza);
+  $baconP = round($bacon * 100 / $totalPizza);
+  $hamP = round($ham * 100 / $totalPizza);
 
-  $comedyP = round($comedy / $totalMovie) * 100;
-  $horrorP = round($horror / $totalMovie) * 100;
-  $actionP = round($action / $totalMovie) * 100;
+  $comedyP = round($comedy * 100 / $totalMovie);
+  $horrorP = round($horror * 100 / $totalMovie);
+  $actionP = round($action * 100 / $totalMovie);
 
   $csP = round($cs * 100/ $totalMajor) ;
   $citP = round($cit * 100/ $totalMajor) ;
