@@ -149,7 +149,6 @@
     <div id="Table">
       <?php
 
-      echo "<br/><br/>";
       echo "<div id=\"labels\">";
       echo "<div>Windows</div>";
       echo "<div>Mac OSx</div>";
@@ -160,7 +159,7 @@
       echo "<div>Action</div>";
       echo "<div>Horror</div>";
 
-     echo "<br/><br/>";
+      echo "<br/><br/>";
       echo "<div>Pepparoni</div>";
       echo "<div>Bacon</div>";
       echo "<div>Ham</div>";
