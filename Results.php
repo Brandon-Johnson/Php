@@ -151,27 +151,27 @@
   <body>
     <div id="results">
       <?php
-      echo "<p>windowP</p>"
-      echo "<p>linuxP</p>"
-      echo "<p>macP</p>"
+      echo "<p>windowP</p>";
+      echo "<p>linuxP</p>";
+      echo "<p>macP</p>";
 
-      
 
-      echo "<span class=\"blue\"> $windows </span>"
-      echo "<span class=\"red\"> $mac </span>"
-      echo "<span class=\"green\"> $linux></span>"
 
-      echo "<span class=\"blue\">$comedy </span>"
-      echo "<span class=\"red\">$action </span>"
-      echo "<span class=\"green\">$horror </span>"
+      echo "<span class=\"blue\"> $windows </span>";
+      echo "<span class=\"red\"> $mac </span>";
+      echo "<span class=\"green\"> $linux></span>";
 
-      echo "<span class=\"blue\">$pep </span>"
-      echo "<span class=\"red\">$bacon </span>"
-      echo "<span class=\"green\">$ham </span>"
+      echo "<span class=\"blue\">$comedy </span>";
+      echo "<span class=\"red\">$action </span>";
+      echo "<span class=\"green\">$horror </span>";
 
-      echo "<span class=\"blue\">$cs </span>"
-      echo "<span class=\"red\">$cit <span>"
-      echo "<span class=\"green\">$we </span>"
+      echo "<span class=\"blue\">$pep </span>";
+      echo "<span class=\"red\">$bacon </span>";
+      echo "<span class=\"green\">$ham </span>";
+
+      echo "<span class=\"blue\">$cs </span>";
+      echo "<span class=\"red\">$cit <span>";
+      echo "<span class=\"green\">$we </span>";
 
       >?
     </div>
