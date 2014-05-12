@@ -18,8 +18,8 @@
   <body>
     <?php include 'modules/navigation.php' ?>
 
-    <h1>Survey</h1>
     <div id="Survey">
+      <h1>Survey</h1>
       <form action="Results.php" method="POST">
         <label for="os">Favorite Operating System</lable><br/>
         <input type="radio" name="os" value="windows">Windows</input><br/>
@@ -41,8 +41,9 @@
         <input type="radio" name="major" value="cit">CIT</input><br/>
         <input type="radio" name="major" value="we">Web Engineering</input><br/>
 
-        <input type="submit" value="submit" name="submit">
+        <input type="submit" value="submit" name="Submit">
       </form>
+      <br/>
       <a href="Results.php">View Results</a>
     </div>
   </body>

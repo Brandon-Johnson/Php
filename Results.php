@@ -39,13 +39,15 @@
       case 'windows'
         (integer)$windows += 1;
         $windows .= "\n";
+        break;
       case 'linux'
         (integer)$linux += 1;
         $linux .= "\n";
-
+        break;
       case 'mac'
         (integer)$mac += 1;
         $mac .= "\n";
+        break;
     }
 
     switch($_POST["movie"])
@@ -53,12 +55,15 @@
       case 'comedy'
         (integer)$comedy += 1;
         $comedy .= "\n";
+        break;
       case 'action'
         (integer)$action+= 1;
         $action .= "\n";
+        break;
       case 'horror'
         (integer)$horror += 1;
         $horror .= "\n";
+        break;
     }
 
     switch($_POST["pizza"])
@@ -66,13 +71,15 @@
       case 'pep'
         (integer)$pep += 1;
         $pep .= "\n";
+        break;
       case 'bacon'
         (integer)$bacon += 1;
         $bacon .= "\n";
-
+        break;
       case 'ham'
         (integer)$ham += 1;
         $ham .= "\n";
+        break;
     }
 
     switch($_POST["major"])
@@ -80,13 +87,15 @@
       case 'cs'
         (integer)$cs += 1;
         $cs .= "\n";
+        break;
       case 'cit'
         (integer)$cit += 1;
         $cit .= "\n";
-
+        break;
       case 'we'
         (integer)$we += 1;
         $we .= "\n";
+        break;
     }
 
     fwrite($file, $windows);
@@ -108,11 +117,11 @@
     fclose($file);
 
   }
-  include 'modules/navigation.php'
+  include 'modules/navigation.php';
   ?>
 
 
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
   <title>Results</title>
