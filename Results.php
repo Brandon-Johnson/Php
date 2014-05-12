@@ -151,9 +151,9 @@
   <body>
     <div id="results">
       <?php
-      echo "<p>windowP</p>";
-      echo "<p>linuxP</p>";
-      echo "<p>macP</p>";
+      echo "<p>$windowP</p>";
+      echo "<p>$linuxP</p>";
+      echo "<p>$macP</p>";
 
 
 
