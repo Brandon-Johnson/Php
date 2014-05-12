@@ -36,15 +36,15 @@
 
     switch($_POST["os"])
     {
-      case 'windows'
+      case 'windows':
         (integer)$windows += 1;
         $windows .= "\n";
         break;
-      case 'linux'
+      case 'linux':
         (integer)$linux += 1;
         $linux .= "\n";
         break;
-      case 'mac'
+      case 'mac':
         (integer)$mac += 1;
         $mac .= "\n";
         break;
@@ -52,15 +52,15 @@
 
     switch($_POST["movie"])
     {
-      case 'comedy'
+      case 'comedy':
         (integer)$comedy += 1;
         $comedy .= "\n";
         break;
-      case 'action'
+      case 'action':
         (integer)$action+= 1;
         $action .= "\n";
         break;
-      case 'horror'
+      case 'horror':
         (integer)$horror += 1;
         $horror .= "\n";
         break;
@@ -68,15 +68,15 @@
 
     switch($_POST["pizza"])
     {
-      case 'pep'
+      case 'pep':
         (integer)$pep += 1;
         $pep .= "\n";
         break;
-      case 'bacon'
+      case 'bacon':
         (integer)$bacon += 1;
         $bacon .= "\n";
         break;
-      case 'ham'
+      case 'ham':
         (integer)$ham += 1;
         $ham .= "\n";
         break;
@@ -84,15 +84,15 @@
 
     switch($_POST["major"])
     {
-      case 'cs'
+      case 'cs':
         (integer)$cs += 1;
         $cs .= "\n";
         break;
-      case 'cit'
+      case 'cit':
         (integer)$cit += 1;
         $cit .= "\n";
         break;
-      case 'we'
+      case 'we':
         (integer)$we += 1;
         $we .= "\n";
         break;
@@ -117,15 +117,14 @@
     fclose($file);
 
   }
-  include 'modules/navigation.php';
-  ?>
+?>
 
 
 <!DOCTYPE html>
 <html>
   <head>
   <title>Results</title>
-
+  <?php include 'modules/navigation.php' ?>
   </head>
 
   <body>
