@@ -128,21 +128,21 @@
 
   <body>
     <div id="results">
-      <p class="blue"><?php echo "$windows" ?></p>
-      <p class="red"><?php echo"$mac" ?></p>
-      <p class="green"><?php echo "$linux" ?></p>
+      <span class="blue"><?php echo "$windows" ?></span>
+      <span class="red"><?php echo"$mac" ?></span>
+      <span class="green"><?php echo "$linux" ?></span>
 
-      <p class="blue"><?php echo "$comedy" ?></p>
-      <p class="red"><?php echo"$action" ?></p>
-      <p class="green"><?php echo "$horror" ?></p>
+      <span class="blue"><?php echo "$comedy" ?></span>
+      <span class="red"><?php echo"$action" ?></span>
+      <span class="green"><?php echo "$horror" ?></span>
 
-      <p class="blue"><?php echo "$pep" ?></p>
-      <p class="red"><?php echo"$bacon" ?></p>
-      <p class="green"><?php echo "$ham" ?></p>
+      <span class="blue"><?php echo "$pep" ?></span>
+      <span class="red"><?php echo"$bacon" ?></span>
+      <span class="green"><?php echo "$ham" ?></span>
 
-      <p class="blue"><?php echo "$cs" ?></p>
-      <p class="red"><?php echo"$cit" ?></p>
-      <p class="green"><?php echo "$we" ?></p>
+      <span class="blue"><?php echo "$cs" ?></span>
+      <span class="red"><?php echo"$cit" ?></span>
+      <span class="green"><?php echo "$we" ?></span>
     </div>
   </body>
 </html>
