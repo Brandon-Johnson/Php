@@ -21,9 +21,9 @@
   $we      = fgets($file);
 
   echo "$windows";
-echo "$comedy";
-echo "$bacon";
-echo "$cs";
+  echo "$comedy";
+  echo "$bacon";
+  echo "$cs";
   fclose($file);
 
   if (isset($_POST["submit"]))
@@ -121,9 +121,17 @@ echo "$cs";
   <head>
   <title>Results</title>
   <?php include 'modules/navigation.php' ?>
+
+  <link rel="stylesheet" type="text/css" href="/css/assignments.css"/>
   </head>
 
   <body>
+    <div id="assignments">
     Display Results Here
+    echo "$windows";
+    echo "$comedy";
+    echo "$bacon";
+    echo "$cs";
+  </div>
   </body>
 </html>
