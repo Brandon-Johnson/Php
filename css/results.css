@@ -1,5 +1,8 @@
 #results
 {
+	background-color:#BDBDBD;
+	opacity:0.6;
+	filter:alpha(opacity=60);
 	margin-left:200px;
 	margin-top:200px;
 	height:400px;
@@ -9,7 +12,7 @@
 .blue
 {
 	background-image:url("/images/blueBar.png");
-	
+
 }
 
 .red
