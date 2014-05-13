@@ -114,7 +114,7 @@
 
   $totalOS = $windows + $mac + $linux;
   $totalPizza = $pep + $bacon + $ham;
-  $totalMovie = $comedy + $action + +horror;
+  $totalMovie = $comedy + $action + $horror;
   $totalMajor = $cs + $cit + $we;
 
   $windowP = round($windows * 100 / $totalOS);
