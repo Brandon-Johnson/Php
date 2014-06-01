@@ -13,7 +13,7 @@
 
  <?php
 
-echo "<div id=\"main\">"
+echo "<div id=\"main\">";
 try
 {
   $user = "php";
@@ -32,7 +32,7 @@ foreach ($db->query("SELECT username, password FROM user") as $row)
   echo " password: " . $row['password'];
   echo "<br />";
 }
-echo "</div>"
+echo "</div>";
 
  ?>
 
