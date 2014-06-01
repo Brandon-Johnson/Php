@@ -31,7 +31,9 @@ foreach ($db->query("SELECT itemName, price, picture, description FROM items") a
 {
   echo "<div class=\"item\">";
 
-  echo "<div class=\"itemHeader\"" . $row['itemName'] . "</div>";
+  echo "<div class=\"itemHeader\"" 
+  echo "$row['itemName']";
+  echo "</div>";
   
 
   echo "<div class=\"itemImage\">";
