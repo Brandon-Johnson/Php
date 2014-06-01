@@ -9,9 +9,10 @@
   </head>
 
 <body>
-  <?php include 'modules/navigation.php' ?>
+<?php include 'modules/navigation.php' ?>
 
- <?php
+
+<?php
 
 echo "<div id=\"main\">";
 try
@@ -26,10 +27,19 @@ catch (PDOException $ex)
   die();
 }
 
-foreach ($db->query("SELECT itemName, price FROM items") as $row)
+foreach ($db->query("SELECT itemName, price, picture, description FROM items") as $row)
 {
-  echo "Item: " . $row['itemName'];
+  echo "<div class=\"item\">";
+
+  echo "<div class=\"itemHeader\"" . $row['itemName'] . "</div>";
+  
+
+  echo "<div class=\"itemImage\">";
+  echo "<img src=\" . $row['picture'] . \"/>";
+  echo "</div>";
+
   echo " Price: " . $row['price'];
+  
   echo "<br />";
 }
 echo "</div>";

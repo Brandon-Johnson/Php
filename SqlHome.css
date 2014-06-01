@@ -1,5 +1,26 @@
 #main
 {
+	margin-top:100px;
 	margin-left:200px;
+}
+
+.item
+{
+float:left;
+height: 600px;
+width:750px;
+background-color:#606060;
+}
+
+
+.itemHeader
+{
+text-align:center;
+border-bottom:2px solid #909090;
+
+}
+
+.itemImage
+{
 
 }
