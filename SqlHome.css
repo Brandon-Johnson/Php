@@ -15,12 +15,13 @@ background-color:#606060;
 
 .itemHeader
 {
+margin-top:5px;
 text-align:center;
 border-bottom:2px solid #909090;
-
 }
 
 .itemImage
 {
-
+float:right;
+margin-top:25px;
 }
