@@ -13,6 +13,7 @@
 		<h2 id="header">Assignments</h2>
 
 		<a href="/Survey.php">Survey</a>
+		<a href="/Home.php">SQL Home Page</a>
 	</div>
 </body>
 
