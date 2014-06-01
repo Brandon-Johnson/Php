@@ -29,4 +29,19 @@ border-bottom:2px solid #909090;
 float:left;
 margin-top:10px;
 margin-left:10px;
+width:500px;
+}
+
+.itemPrice
+{
+float:right;
+width:;
+margin-left:520px;
+
+}
+
+.itemDescription
+{
+font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+
 }

@@ -40,8 +40,14 @@ foreach ($db->query("SELECT itemName, price, picture, description FROM items") a
   echo "<img src=\"" . $row['picture'] . "\"/>";
   echo "</div>";
 
+  echo "<div class=\"itemPrice\">";
   echo " Price: " . $row['price'];
-  
+  echo "</div>";
+
+  echo "<div class=\"itemDescription\">";
+  echo $row['description'];
+  echo "</div>";
+
   echo "<br />";
 
   echo "</div>";
