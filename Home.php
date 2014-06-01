@@ -26,10 +26,10 @@ catch (PDOException $ex)
   die();
 }
 
-foreach ($db->query("SELECT username, password FROM user") as $row)
+foreach ($db->query("SELECT itemName, price FROM items") as $row)
 {
-  echo "user: " . $row['username'];
-  echo " password: " . $row['password'];
+  echo "Item: " . $row['itemName'];
+  echo " Price: " . $row['price'];
   echo "<br />";
 }
 echo "</div>";
