@@ -5,6 +5,7 @@
     <title>My Home Page</title>
   
     <link rel="stylesheet" type="text/css" href="/css/homepage.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/SqlHome.css"/>
   </head>
 
 <body>
@@ -12,6 +13,7 @@
 
  <?php
 
+echo "<div id=\"main\">"
 try
 {
   $user = "php";
@@ -30,7 +32,7 @@ foreach ($db->query("SELECT username, password FROM user") as $row)
   echo " password: " . $row['password'];
   echo "<br />";
 }
-
+echo "</div>"
 
  ?>
 
