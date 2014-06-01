@@ -12,7 +12,7 @@
 	<div id="assignments">
 		<h2 id="header">Assignments</h2>
 
-		<a href="/Survey.php">Survey</a>
+		<a href="/Survey.php">Survey</a> <br/>
 		<a href="/Home.php">SQL Home Page</a>
 	</div>
 </body>
