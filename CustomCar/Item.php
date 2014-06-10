@@ -25,7 +25,7 @@ catch (PDOException $ex)
   die();
 }
 
-foreach ($db->query("SELECT itemName, price, picture, description FROM items") as $row)
+foreach ($db->query("SELECT itemName, price, picture, description FROM items WHERE id=1") as $row)
 {
   echo "<div class=\"item\">";
 
