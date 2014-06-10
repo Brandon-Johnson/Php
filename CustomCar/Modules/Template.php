@@ -5,9 +5,7 @@
 
 
 ?>
- <div id="mainBody">
-      main body
-  </div>
+
 
 <div id="header">
 </div>
@@ -20,3 +18,7 @@
 <div id="footer">
 	Created By: Brandon Johnson
 </div>	
+
+<div id="mainBody">
+      main body
+  </div>
