@@ -9,7 +9,7 @@
   <body>
     <?php include 'Modules/Template.php' ?>
     <div id="mainBody">
-
+      main body
 
     </div>
   </body>
