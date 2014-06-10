@@ -25,17 +25,22 @@ margin-right:10%;
 min-width:80%;
 }
 
-#header
+/* Header Bar */
+#headerBar
 {
 position:absolute;
 min-width:100%;
 top:0;
 background-color:#00FF00;
+height:110px;
+}
+
+#headerContent
+{
+padding-left:5%;
 background-image:url("/CustomCar/Images/CustomCarHeader.png");
 background-repeat:no-repeat;
 background-position:left;
-height:110px;
-
 }
 
 #navigationBar
@@ -49,7 +54,7 @@ margin-right:10%;
 background-color:#FF0000;
 }
 
-#footer
+#footerBar
 {
 position:absolute;
 bottom:0;

@@ -10,7 +10,7 @@
       main body
 </div>
 
-<div id="header">
+<div id="headerBar">
 </div>
 
 <div id="navigationBar">
@@ -18,7 +18,7 @@
 </div>
 
 
-<div id="footer">
+<div id="footerBar">
 	Created By: Brandon Johnson
 </div>	
 
