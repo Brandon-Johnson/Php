@@ -8,12 +8,10 @@
 
 
 <div id="header">
-Header
 </div>
 
 
 
 <div id="footer">
 	Created By: Brandon Johnson
-
 </div>	
