@@ -26,7 +26,7 @@ catch (PDOException $ex)
 }
 
 
-foreach ($db->query("SELECT itemName, price, picture, description FROM items WHERE id=$_GET['itemId']") as $row)
+foreach ($db->query("SELECT itemName, price, picture, description FROM items WHERE id=" . $_GET['itemId']) as $row)
 {
   echo "<div class=\"item\">";
 
