@@ -25,15 +25,15 @@ catch (PDOException $ex)
   die();
 }
 
-echo "<div class=\"itemContainer\">";
-foreach ($db->query("SELECT id, itemName, price, picture, description FROM items") as $row)
+echo "<div class=\"itemContainer\">\n";
+foreach ($db->query("SELECT id, itemName, price, description FROM items") as $row)
 {
-  echo "<div class=\"item\">\n";
-  echo "<a href\"CustomCar/Item.php?item=" . $row['id'] . "\">\n";
+  echo "\t<div class=\"item\">\n";
+  echo "\t\t<a href\"CustomCar/Item.php?item=" . $row['id'] . "\">\n\t\t\t";
   echo $row['itemName'];
-  echo "</a>\n";
+  echo "\t\t</a>\n";
 
-  echo "</div>";
+  echo "\t</div>\n";
 }
 echo "</div>";
 
