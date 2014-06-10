@@ -29,7 +29,7 @@ echo "<div class=\"itemContainer\">\n";
 foreach ($db->query("SELECT id, itemName, price, description FROM items") as $row)
 {
   echo "\t<div class=\"item\">\n";
-  echo "\t\t<a href\"CustomCar/Item.php?item=" . $row['id'] . "\">\n\t\t\t";
+  echo "\t\t<a href=\"CustomCar/Item.php?item=" . $row['id'] . "\">\n\t\t\t";
   echo $row['itemName'];
   echo "\t\t</a>\n";
 
