@@ -71,12 +71,14 @@ border-bottom:2px solid #909090;
 
 .navigationBox
 {
-font-size:30px;
+padding-top:10px;
+font-size:20px;
 font-style:bold;
 float:left;
 width:33%;
 min-height:50px;
 text-align:center;
+font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
 
 .navTabs
