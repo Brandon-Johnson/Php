@@ -29,7 +29,7 @@ catch (PDOException $ex)
 foreach ($db->query("SELECT itemName, price, picture, description FROM items") as $row)
 {
 
-  echo "<div class=\"item\">\n";
+  echo "<div class=\"item\">";
   echo $row['itemName'];
   echo "</div>";
  ?>
