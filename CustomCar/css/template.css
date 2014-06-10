@@ -25,35 +25,50 @@ margin-right:10%;
 min-width:80%;
 }
 
-/* Header Bar */
+/******************************************************/
+/******************************************************/
+/* Header */
 #headerBar
 {
 position:absolute;
 min-width:100%;
 top:0;
 background-color:#00FF00;
-height:110px;
+min-height:110px;
 }
 
 #headerContent
 {
-padding-left:5%;
+min-height:110px;
+margin-left:5%;
 background-image:url("/CustomCar/Images/CustomCarHeader.png");
 background-repeat:no-repeat;
 background-position:left;
 }
 
+/******************************************************/
+/******************************************************/
+/* Navigation */
 #navigationBar
 {
 margin-top:110px;
 position:absolute;
-height:50px;
+min-height:50px;
 width:80%;
 margin-left:10%;
 margin-right:10%;
 background-color:#FF0000;
 }
 
+.navigationContent
+{
+min-height:50px;
+width:20%;
+border:2px;
+}
+/******************************************************/
+/******************************************************/
+/* Footer */
 #footerBar
 {
 position:absolute;
@@ -63,4 +78,11 @@ height:5%;
 background-color:#AAAAAA;
 margin-left:0;
 margin-right:0;
+}
+
+#footerContent
+{
+min-height:100%;
+width:100%;
+margin-left:20%;
 }
