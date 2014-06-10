@@ -13,7 +13,6 @@
 <div class="mainBodyContent">
 <?php
 
-
 try
 {
   $user = "php";
@@ -28,12 +27,13 @@ catch (PDOException $ex)
 
 foreach ($db->query("SELECT itemName, price, picture, description FROM items") as $row)
 {
-
   echo "<div class=\"item\">";
   echo $row['itemName'];
   echo "</div>";
- ?>
+}
 
+
+ ?>
   </div>
 </div>
 
