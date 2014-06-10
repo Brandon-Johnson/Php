@@ -8,7 +8,10 @@
 
   <body>
     <?php include 'Modules/Template.php' ?>
-      This is the Homepage
+    <div id="mainBody">
+
+
+    </div>
   </body>
 
 </html>

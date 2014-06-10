@@ -13,7 +13,7 @@
 
 <?php
 
-echo "<div id=\"main\">";
+
 try
 {
   $user = "php";
@@ -52,7 +52,7 @@ foreach ($db->query("SELECT itemName, price, picture, description FROM items") a
 
   echo "</div>";
 }
-echo "</div>";
+
 
  ?>
 
