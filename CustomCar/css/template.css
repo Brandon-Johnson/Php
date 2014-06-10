@@ -22,7 +22,7 @@ margin-right:10%;
 {
 margin-top:10%;
 background-color:#00FF00;
-background-image:("/CustomCar/Images/CustomCarHeader.png");
+background-image:url("/CustomCar/Images/CustomCarHeader.png");
 
 }
 
