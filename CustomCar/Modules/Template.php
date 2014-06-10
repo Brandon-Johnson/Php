@@ -5,7 +5,9 @@
 
 
 ?>
-
+ <div id="mainBody">
+      main body
+  </div>
 
 <div id="header">
 </div>
