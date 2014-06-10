@@ -4,8 +4,7 @@
   <head>
     <title>My Home Page</title>
   
-    <link rel="stylesheet" type="text/css" href="/css/homepage.css"/>
-    <link rel="stylesheet" type="text/css" href="/css/SqlHome.css"/>
+    <link rel="stylesheet" type="text/css" href="/CustomCar/css/SqlHome.css"/>
   </head>
 
 <body>
