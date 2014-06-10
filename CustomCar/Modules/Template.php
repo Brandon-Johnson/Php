@@ -11,6 +11,8 @@
 </div>
 
 <div id="headerBar">
+	<div id="headerContent">
+	</div>
 </div>
 
 <div id="navigationBar">
