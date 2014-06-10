@@ -9,7 +9,10 @@
   <body>
     <?php include 'Modules/Template.php' ?>
 
+    <div class="mainBodyContent">
+        mainbody
     </div>
+    
   </body>
 
 </html>
