@@ -29,7 +29,9 @@ echo "<div class=\"itemContainer\">";
 foreach ($db->query("SELECT itemName, price, picture, description FROM items") as $row)
 {
   echo "<div class=\"item\">";
+  
   echo $row['itemName'];
+
   echo "</div>";
 }
 echo "</div>";
