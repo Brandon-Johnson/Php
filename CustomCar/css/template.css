@@ -1,0 +1,8 @@
+body
+{
+height:100%;
+background-image:url("/CustomCar/Images/background.jpg");
+background-color:black;
+background-repeat:repeat;
+background-attachment:fixed;
+}
