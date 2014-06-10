@@ -5,7 +5,6 @@
 
 
 ?>
-<div id="page">
 	<div id="mainBody">
 	      main body
 	</div>

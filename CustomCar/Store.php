@@ -35,7 +35,6 @@ foreach ($db->query("SELECT itemName, price, picture, description FROM items") a
 
  ?>
   </div>
-</div>
 
   </body>
 </html>
