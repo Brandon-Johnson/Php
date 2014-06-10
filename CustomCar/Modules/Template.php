@@ -16,10 +16,14 @@
 </div>
 
 <div id="navigationBar">
-	<div class="navigationContent">navigation1</div>
-	<div class="navigationContent">navigation2</div>
-	<div class="navigationContent">navigation3</div>
-	<div class="navigationContent">navigation4</div>
+	<div id="navigationContent">
+		<div class="navigationBox">
+			<a href="https://php-bdj.rhcloud.com/CustomCar/Home.php">Home</a>
+		</div>
+		<div class="navigationBox">
+			<a href="https://php-bdj.rhcloud.com/CustomCar/Store.php">Store</a>
+		</div>
+	</div>
 </div>
 
 
