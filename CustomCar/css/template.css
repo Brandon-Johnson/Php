@@ -11,9 +11,10 @@ background-attachment:fixed;
 
 #mainBody
 {
+height:70%;
 width:80%;
 margin-bottom:10%;
-background-color:#000000;
+background-color:#FFFFFF;
 margin-left:10%;
 margin-right:10%;
 }
