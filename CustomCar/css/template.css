@@ -50,6 +50,7 @@ min-width:100%;
 top:0;
 background-color:#00FF00;
 background-image:url("/CustomCar/Images/header.png");
+background-repeat:no-repeat;
 height:110px;
 }
 
@@ -115,6 +116,7 @@ text-decoration:underline;
 #footerBar
 {
 background-image:url("/CustomCar/Images/footer.png");
+background-repeat:no-repeat;
 position:absolute;
 bottom:0;
 min-width:100%;
