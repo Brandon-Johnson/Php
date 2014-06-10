@@ -5,3 +5,15 @@
 
 
 ?>
+
+
+<div id="header">
+
+</div>
+
+
+
+<div id="footer">
+	Created By: Brandon Johnson
+
+</div>	
