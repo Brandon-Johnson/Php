@@ -20,20 +20,20 @@ margin-right:10%;
 
 #header
 {
-margin-top:10%;
 background-color:#00FF00;
 background-image:url("/CustomCar/Images/CustomCarHeader.png");
+background-repeat:no-repeat;
+background-position:left;
 min-height:130px;
+height:20px;
 }
 
 #navigationBar
 {
-margin-top:20%;
 background-color:#FF0000;
 }
 
 #footer
 {
-margin-top:90%;
 background-color:#AAAAAA;
 }
