@@ -1,3 +1,7 @@
+html
+{
+height:100%;
+}
 body
 {
 height:100%;
@@ -31,7 +35,7 @@ min-height:110px;
 
 #navigationBar
 {
-height:1500%;
+height:10%;
 width:80%;
 margin-left:10%;
 margin-right:10%;
