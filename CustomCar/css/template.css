@@ -30,6 +30,10 @@ height:20px;
 
 #navigationBar
 {
+height:10%;
+width:80%;
+margin-left:10%;
+margin-right:10%;
 background-color:#FF0000;
 }
 

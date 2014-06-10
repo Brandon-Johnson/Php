@@ -10,6 +10,8 @@
 <div id="header">
 </div>
 
+<div id="navigationBar"
+</div>
 
 
 <div id="footer">
