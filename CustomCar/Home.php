@@ -9,7 +9,7 @@
   </head>
 
 <body>
-<?php include 'modules/navigation.php' ?>
+<?php include '/modules/navigation.php' ?>
 
 
 <?php
