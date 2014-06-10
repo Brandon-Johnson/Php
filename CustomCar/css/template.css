@@ -26,18 +26,16 @@ background-color:#00FF00;
 background-image:url("/CustomCar/Images/CustomCarHeader.png");
 background-repeat:no-repeat;
 background-position:left;
-min-height:120px;
-height:20%;
+min-height:110px;
 }
 
 #navigationBar
 {
-height:10%;
+height:1500%;
 width:80%;
 margin-left:10%;
 margin-right:10%;
 background-color:#FF0000;
-min-height:5%;
 }
 
 #footer
