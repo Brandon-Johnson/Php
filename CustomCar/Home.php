@@ -7,7 +7,7 @@
   </head>
 
   <body>
-    <?php include '/CustomCar/Modules/Template.php' ?>
+    <?php include 'CustomCar/Modules/Template.php' ?>
       This is the Homepage
   </body>
 
