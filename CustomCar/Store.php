@@ -26,11 +26,12 @@ catch (PDOException $ex)
 }
 
 echo "<div class=\"itemContainer\">";
-foreach ($db->query("SELECT itemName, price, picture, description FROM items") as $row)
+foreach ($db->query("SELECT id, itemName, price, picture, description FROM items") as $row)
 {
   echo "<div class=\"item\">";
-  
+  echo "<a href\"CustomCar/Item.php?item=" . $row['id'] . "\">";
   echo $row['itemName'];
+  echo "</a>";
 
   echo "</div>";
 }
