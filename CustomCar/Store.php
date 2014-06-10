@@ -10,9 +10,8 @@
 <body>
 <?php include 'Modules/Template.php' ?>
 
-
+<div id="mainBody">
 <?php
-
 
 try
 {
@@ -56,7 +55,7 @@ foreach ($db->query("SELECT itemName, price, picture, description FROM items") a
 
  ?>
 
-  
+</div>
 
   </body>
 </html>
