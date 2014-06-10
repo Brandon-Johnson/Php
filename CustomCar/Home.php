@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Custom Cars</title>
-  
-   
+    <title>Custom Cars</title>   
   </head>
 
   <body>
@@ -11,8 +9,7 @@
 
     <div class="mainBodyContent">
         mainbody
-    </div>
-    
+    </div>  
   </body>
 
 </html>
