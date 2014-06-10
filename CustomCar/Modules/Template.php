@@ -10,7 +10,7 @@
 <div id="header">
 </div>
 
-<div id="navigationBar"
+<div id="navigationBar">
 </div>
 
 
