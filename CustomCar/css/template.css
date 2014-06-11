@@ -22,17 +22,16 @@ top:0;
 right:0;
 height:50px;
 width:100px;
-
 }
 
 #LogoutIcon
 {
-background-image:url();
+background-image:url("/CustomCar/Images/logout.jpg");
 }
 
 #LogoutIcon:hover
 {
-background-image:url();
+background-image:url("/CustomCar/Images/logoutHover.png");
 }
 
 /*******************************************************/
