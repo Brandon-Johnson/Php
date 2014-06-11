@@ -28,7 +28,7 @@
    		<br/>
    		<textarea rows="20" cols="100" name="theReview">Write Review Here</textarea>
    		</br>
-   		<input type="submit" value="submitReview"/>
+   		<input type="submit" value="Submit Review"/>
    	</form>
  </div>
      <?php include 'Modules/Template.php' ?>
