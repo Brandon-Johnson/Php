@@ -1,12 +1,22 @@
 .itemContainer
 {
-	background-color:#FFFF00;
+color:#FFFFFF;
+height:100%;
+width:100%;
 }
 
 .item
 {
-	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
-	background-color:#FF00FF;
-	width:33%;
-	float:left;
+text-align:center;
+height:100px;
+color:#FFFFFF;
+font-size:20px;
+font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+width:33%;
+float:left;
+}
+
+a
+{
+color:#FFFFFF;
 }
