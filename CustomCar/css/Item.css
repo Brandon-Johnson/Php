@@ -43,7 +43,7 @@ float:left;
 
 #reviewContainer
 {
-float:left;
+margin-left:550px;
 height:100%;
 border-left:2px solid #FFFFFF;
 }
@@ -62,7 +62,5 @@ text-decoration:underline;
 .reviewContent
 {
 font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
-padding-left:10px;
-margin-bottom:10px;
 font-size:20px;
 }
