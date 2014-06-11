@@ -1,4 +1,6 @@
 <?php
+session_start();
+
 $userName = $_POST['userName'];
 $pass = $_POST['password'];
 
@@ -19,7 +21,7 @@ foreach ($db->query("SELECT id FROM user WHERE username = '$userName' AND passwo
 
 if (isset($row['id']))
 {
-	session_start();
+
 	echo "Valid";
 	$_SESSION['userId'] = $row['id'];
 	header("Home.php");
