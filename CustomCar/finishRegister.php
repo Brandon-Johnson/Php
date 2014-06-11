@@ -1,11 +1,5 @@
 <?php
-  session_start();
-  if (!isset($_SESSION['userId']))
-  {
-    header("Location:Login.php");
-    die();
-  }
-  
+  session_start();  
 
 $userName = $_POST['userName'];
 $pass = $_POST['password'];
@@ -40,7 +34,6 @@ if (isset($row['id']))
 }
 else
 {
-
 	$db->query("INSERT INTO `user` (username, password) Values ('$userName', '$pass')");
 	setcookie('CoolBeans', true);
 	header("Location:Login.php");
