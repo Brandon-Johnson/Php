@@ -18,6 +18,6 @@ catch (PDOException $ex)
 
 echo $userName;
 echo $pass;
-$userId = $db->query("SELECT id FROM users WHERE username = '$userName' AND password = 'pass'");
+$userId = $db->query("SELECT id FROM user WHERE username = '$userName' AND password = 'pass'");
 echo $userId;
 ?>
