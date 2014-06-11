@@ -22,7 +22,7 @@
 		  echo "Error!: " . $ex->getMessage();
 		  die();
 		}
-   		foreach ($db->query("SELECT itemName FROM items WHERE id=" . $_GET['itemId']) as $row)
+   		foreach ($db->query("SELECT itemName FROM items WHERE id=" . $_COOKIE['itemId']) as $row)
    			echo $row['itemName'];
    		?>
    		<br/>
