@@ -9,6 +9,8 @@
         echo "Failed to connect to MySQL: " . mysqli_connect_error();
     }
 
+    echo .$_POST["theReview"] . "<br/>";
+    echo .$_COOKIE["itemId"] . "<br/>";
     mysqli_query($db, "INSERT INTO review (review, itemId, userId) VALUES (" . $_POST["theReview"] . ", " . $_COOKIE["itemId"]  . ", 1);");
 
     mysqli_close($db);
