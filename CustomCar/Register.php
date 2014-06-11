@@ -40,12 +40,12 @@
      <div class="message">
       <?php
       echo "<div class=\"error\">";
-        if(isset($_COOKIE['sp'])
+        if(isset($_COOKIE['sp']))
         {
        	  unset($_COOKIE['sp']);
           echo "Passwords entered did not match! <br/>";
       	}
-        if(isset($_COOKIE['taken'])
+        if(isset($_COOKIE['taken']))
         {
         	unset($_COOKIE['taken']);
         	echo "Username has already been taken! <br/>";

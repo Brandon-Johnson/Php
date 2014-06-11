@@ -34,7 +34,7 @@
 
     <div class="message">
       <?php
-        if(isset($_COOKIE['CoolBeans'])
+        if(isset($_COOKIE['CoolBeans']))
         {
           unset($_COOKIE['CoolBeans']);
           echo "Account Registered! <br/>";
