@@ -3,6 +3,7 @@ echo $_POST['userName'];
 echo $_POST['password'];
 $userName = $_POST['userName'];
 $pass = $_POST['password'];
+
 try
 {
   $user = "php";
@@ -15,6 +16,8 @@ catch (PDOException $ex)
   die();
 }
 
+echo $userName;
+echo $pass;
 $userId = $db->query("SELECT id FROM users WHERE username = '$userName' AND password = 'pass'");
 echo $userId;
 ?>
