@@ -28,10 +28,12 @@ if (isset($row['id']))
 	echo "Valid";
 	$_SESSION['userId'] = $row['id'];
 	header("Home.php");
+	die();
 }
 else
 {
 	$_COOKIE["invalid"] = true;
 	header("Login.php");
+	die();
 }
 ?>
