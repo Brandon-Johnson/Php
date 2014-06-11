@@ -48,10 +48,7 @@
         {
         	echo "Username has already been taken! <br/>";
       	}
-          setcookie("sp", "", time()-3600);
-          setcookie("taken", "", time()-3600);
-          setcookie("CoolBeans", "", time()-3600);
-          setcookie("invalid", "", time()-3600);
+        
       echo "</div>";
       ?>
   	</div>
@@ -60,3 +57,11 @@
   </body>
 
 </html>
+
+<?php
+        setcookie("sp", "", time()-3600);
+        setcookie("taken", "", time()-3600);
+        setcookie("CoolBeans", "", time()-3600);
+        setcookie("invalid", "", time()-3600);
+
+?>
