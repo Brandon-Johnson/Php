@@ -69,9 +69,9 @@ foreach ($db->query("SELECT itemName, price, picture, description FROM items WHE
 
 
  ?>
-  </div>
 </div>
 
 
+<?php include 'Modules/Template.php' ?>
   </body>
 </html>
