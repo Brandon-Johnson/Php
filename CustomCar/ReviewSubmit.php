@@ -22,7 +22,7 @@
 	}
 	$db->query("INSERT INTO review (review, itemId, userId) VALUES (" . $_POST["theReview"] . ", " . $_COOKIE["itemId"]  . ", 1);");
 
-    header("location:Item.php?" . $_COOKIE['itemId']);
+    header("location:Item.php?itemId=" . $_COOKIE['itemId']);
     die();
 ?>
 
