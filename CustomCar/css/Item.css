@@ -9,7 +9,7 @@ background-color:#909090;
 
 .itemHeader
 {
-font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+font-family: â€˜Palatino Linotypeâ€™, â€˜Book Antiquaâ€™, Palatino, serif;
 font-size:30px;
 margin-top:10px;
 text-align:center;
@@ -28,6 +28,8 @@ width:500px;
 {
 margin-top:10px;
 margin-left:520px;
+width:150px;
+background-color:#FFFFFF;
 
 }
 
@@ -35,6 +37,12 @@ margin-left:520px;
 {
 width:750px;
 float:left;
-font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+font-family: â€˜Palatino Linotypeâ€™, â€˜Book Antiquaâ€™, Palatino, serif;
+}
 
+.reviews
+{
+border-left:2px solid #FFFFFF;
+float:left;
+margin-left:760px;
 }
