@@ -54,6 +54,9 @@ foreach ($db->query("SELECT itemName, price, picture, description FROM items WHE
   echo "</div>";
 
   echo "<div id=\"reviewContainer\">";
+  echo "<h2>Reviews</h2>";
+  $reviewCount = 0;
+
   foreach ($db->query("SELECT review , userId FROM review WHERE itemId=" . $_GET['itemId']) as $table)
   {
     echo "<div class=\"reviews\">";
@@ -66,9 +69,13 @@ foreach ($db->query("SELECT itemName, price, picture, description FROM items WHE
     echo "<div class=\"reviewContent\">";
     echo $table['review'];
     echo "</div>";
-    
+
     echo "</div>";
+    $reviewCount++;
   }
+
+  if ($reviewCount == 0)
+    echo "<div class=\"reviewContent\">No Reviews Yet</div>";
   echo "</div>";
   echo "</div>";
 }
