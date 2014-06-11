@@ -55,10 +55,14 @@ padding-left:10px;
 
 .reviewUser
 {
+font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 text-decoration:underline;
 }
 
 .reviewContent
 {
+font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 padding-left:10px;
+margin-bottom:10px;
+font-size:20px;
 }
