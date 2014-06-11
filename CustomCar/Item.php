@@ -39,11 +39,6 @@ foreach ($db->query("SELECT itemName, price, picture, description FROM items WHE
   echo "<img src=\"" . $row['picture'] . "\"/>";
   echo "</div>";
 
-  echo "<div class=\"itemPrice\">";
-  echo "<h3> Price: $" . $row['price'] . "</h3>";
-  echo "</div>";
-
-
   echo "<div id=\"reviewContainer\">";
   foreach ($db->query("SELECT review , userId FROM review WHERE itemId=" . $_GET['itemId']) as $table)
   {
@@ -59,6 +54,10 @@ foreach ($db->query("SELECT itemName, price, picture, description FROM items WHE
   }
   echo "</div>";
 
+
+  echo "<div class=\"itemPrice\">";
+  echo "<h3> Price: $" . $row['price'] . "</h3>";
+  echo "</div>";
 
   echo "<div class=\"itemDescription\">";
   echo "<h3>Description</h3>";
