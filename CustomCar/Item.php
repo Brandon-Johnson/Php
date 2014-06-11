@@ -4,7 +4,6 @@
   <head>
     <title>CustomCars</title>
   
-    <link rel="stylesheet" type="text/css" href="/CustomCar/css/Store.css"/>
     <link rel="stylesheet" type="text/css" href="/CustomCar/css/Item.css"
   </head>
 
