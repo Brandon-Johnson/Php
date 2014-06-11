@@ -8,7 +8,7 @@
   </head>
 
 <body>
-<?php include 'Modules/Template.php' ?>
+
 
 <div class="mainBodyContent">
 <?php
@@ -39,6 +39,6 @@ echo "</div>";
 
  ?>
   </div>
-
+<?php include 'Modules/Template.php' ?>
   </body>
 </html>
