@@ -1,3 +1,9 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+
+<body>
 <?php
 	
 	$user = "php";
@@ -18,3 +24,6 @@
     header("location:Item.php?" . $_COOKIE['itemId']);
     die();
 ?>
+
+</body>
+</html>
