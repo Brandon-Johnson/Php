@@ -7,6 +7,7 @@
 ?>
 	<div id="mainBody">
 	      main body
+	</div>
 	
 
 	<div id="headerBar">
@@ -38,6 +39,5 @@
 			Created By: Brandon Johnson
 		</div>
 	</div>	
-</div>
 
 
