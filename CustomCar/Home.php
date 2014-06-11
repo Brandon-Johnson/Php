@@ -1,9 +1,9 @@
 <?php
   session_start();
-  if (isset($_SESSION['userId']))
+  if (!isset($_SESSION['userId']))
   {
-    echo $_SESSION['userId'];
-    /*header("Location:Login.php");*/
+    header("Location:Login.php");
+    die();
   }
 ?>
 
@@ -18,8 +18,7 @@
    <?php
  
   
-    echo $_SESSION['userId'];
-    /*header("Location:Login.php");*/
+
   
 ?>
 

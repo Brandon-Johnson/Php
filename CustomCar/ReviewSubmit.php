@@ -1,3 +1,12 @@
+<?php
+  session_start();
+  if (!isset($_SESSION['userId']))
+  {
+    header("Location:Login.php");
+    die();
+  }
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
