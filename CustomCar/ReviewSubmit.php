@@ -2,7 +2,7 @@
 	
 	$user = "php";
 	$password = "php";
-	$db = new mysqli_connect("localhost", $user, $passwpord, "php");
+	$db = new mysqli_connect("localhost", $user, $password, "php");
 	
  	if (mysqli_connect_errno())
     {
