@@ -39,6 +39,9 @@ if (isset($row['id']))
 }
 else
 {
+	unset($_COOKIE['sp']);
+	unset($_COOKIE['taken']);
+
 	$db->query("INSERT INTO `user` (username, password) Values ('$userName', '$pass')");
 	setcookie('CoolBeans', true);
 	header("Location:Login.php");

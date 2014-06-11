@@ -32,6 +32,15 @@
        </form>
        <a class="Register" href="Register.php">Register</a>
     </div>  
+
+    <div class="error">
+      <?php
+        if($_COOKIE['sp'])
+          echo "Passwords entered did not match! <br/>";
+        if($_COOKIE['taken'])
+          echo "Username has already been taken! <br/>";
+      ?>
+    </div>
      <?php include 'Modules/Template.php' ?>
   </body>
 
