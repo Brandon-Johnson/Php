@@ -29,8 +29,8 @@
         <input class="Input" type="password" name="password" id="password"/><br/>
        	</p>
         <input type="submit" value="Login"/>
-        <a class="Label" href="Register.php">Register</a>
        </form>
+       <a class="Register" href="Register.php">Register</a>
     </div>  
      <?php include 'Modules/Template.php' ?>
   </body>
