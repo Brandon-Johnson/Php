@@ -1,6 +1,5 @@
 .item
 {
-margin-bottom:10px;
 float:left;
 width:100%;
 background-color:#909090;
@@ -9,7 +8,7 @@ background-color:#909090;
 
 .itemHeader
 {
-font-family: â€˜Palatino Linotypeâ€™, â€˜Book Antiquaâ€™, Palatino, serif;
+
 font-size:30px;
 margin-top:10px;
 text-align:center;
@@ -18,40 +17,37 @@ border-bottom:2px solid #505050;
 
 .itemImage
 {
-float:left;
-margin-top:10px;
-margin-left:10px;
-width:500px;
+padding-top:10px;
+padding-left:10px;
 }
 
 .itemPrice
 {
-margin-top:10px;
-width:150px;
+padding-top:10px;
 background-color:#FFFFFF;
-
 }
 
 .itemDescription
 {
-width:750px;
 float:left;
-font-family: â€˜Palatino Linotypeâ€™, â€˜Book Antiquaâ€™, Palatino, serif;
+
 }
 
 #left
 {
-width:50%;
+min-width:550px;
+width:40%;
 float:left;
 }
+
 #reviewContainer
 {
 float:left;
-width:50%;
 height:100%;
+border-left:2px solid #FFFFFF;
 }
+
 .reviews
 {
-border-left:2px solid #FFFFFF;
-float:left;
+padding-left:10px;
 }
