@@ -53,11 +53,13 @@ foreach ($db->query("SELECT itemName, price, picture, description FROM items WHE
   echo "<div class=\"reviews\">";
   foreach ($db->query("SELECT review , userId FROM review WHERE itemId=" . $_GET['itemId']) as $table)
   {
-    $db->query("SELECT username FROM user WHERE id=" . $table['userId']) as $user)
-    echo $user['username'];
-    
+    foreach ($db->query("SELECT username FROM user WHERE id=" . $table['userId']) as $user)
+    {
+      echo $user['username'];
+    }
     echo "<br/>";
     echo $table['review'];
+    echo "<br/><br/>";
   }
   echo "</div>";
 
