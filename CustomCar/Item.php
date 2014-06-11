@@ -46,7 +46,7 @@ foreach ($db->query("SELECT itemName, price, picture, description FROM items WHE
   echo "</div>";
 
   echo "<div class=\"itemDescription\">";
-  echo "<h3>Description</h3>";
+  echo "<div id=\"contentHeader\">Description</div>";
   echo $row['description'];
   echo "</div>";
 
@@ -54,7 +54,8 @@ foreach ($db->query("SELECT itemName, price, picture, description FROM items WHE
   echo "</div>";
 
   echo "<div id=\"reviewContainer\">";
-  echo "<h2>Reviews</h2>";
+
+  echo "<div id=\"contentHeader\">Reviews</div>";
   $reviewCount = 0;
 
   foreach ($db->query("SELECT review , userId FROM review WHERE itemId=" . $_GET['itemId']) as $table)
