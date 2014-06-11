@@ -39,7 +39,7 @@ if (isset($row['id']))
 }
 else
 {
-	$db->query("INSERT INTO `user` (username, password) Values ('$userName', '$pass)");
+	$db->query("INSERT INTO `user` (username, password) Values ('$userName', '$pass')");
 	setcookie('CoolBeans', true);
 	header("Location:Login.php");
 	die();
