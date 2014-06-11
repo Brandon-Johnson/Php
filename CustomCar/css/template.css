@@ -15,20 +15,22 @@ background-color:black;
 background-repeat:no-repeat;
 }
 
-#logout
+#LogoutContainer
 {
 position:absolute;
 top:0;
 right:0;
-height:50;
+height:50px;
+width:100px;
+
 }
 
-#logoutIcon
+#LogoutIcon
 {
 background-image:url();
 }
 
-#logoutIcon:hover
+#LogoutIcon:hover
 {
 background-image:url();
 }
