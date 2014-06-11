@@ -31,12 +31,12 @@ text-decoration:underline;
 
 .message
 {
-	float:right;
-	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+float:right;
+font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
 
 .error
 {
-	color:#FF0000;
-	text-decoration:bold;
+color:#FF0000;
+text-decoration:bold;
 }
