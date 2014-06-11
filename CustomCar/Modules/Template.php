@@ -8,6 +8,9 @@
   	<div id="LogoutContainer">
   		<a id="LogoutIcon" href="Logout.php"></a>
   	</div>
+  	
+  	<?php
+
   }
 
 ?>
