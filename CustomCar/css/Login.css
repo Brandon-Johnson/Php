@@ -28,3 +28,15 @@ font-size:15px;
 {
 text-decoration:underline;
 }
+
+.message
+{
+	float:right;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+.error
+{
+	color:#FF0000;
+	text-decoration:bold;
+}
