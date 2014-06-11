@@ -59,11 +59,14 @@ foreach ($db->query("SELECT itemName, price, picture, description FROM items WHE
     echo "<div class=\"reviews\">";
     foreach ($db->query("SELECT username FROM user WHERE id=" . $table['userId']) as $user)
     {
-      echo $user['username'];
+      echo "<div class=\"reviewUser\">";
+      echo "By: " . $user['username'];
+      echo "</div>";
     }
-    echo "<br/>";
+    echo "<div class=\"reviewContent\">";
     echo $table['review'];
-    echo "<br/><br/>";
+    echo "</div>";
+    
     echo "</div>";
   }
   echo "</div>";
