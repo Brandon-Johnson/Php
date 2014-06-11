@@ -1,3 +1,11 @@
+<?php
+  if (!isset($_SESSION['userId']))
+  {
+    header("Location:Login.php");
+  }
+?>
+
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -8,7 +16,7 @@
    
 
     <div class="mainBodyContent">
-        mainbody
+
     </div>  
      <?php include 'Modules/Template.php' ?>
   </body>

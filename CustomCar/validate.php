@@ -24,13 +24,13 @@ if (isset($row['id']))
 
 	echo "Valid";
 	$_SESSION['userId'] = $row['id'];
-	header("Home.php");
+	header("Location:Home.php");
 	die();
 }
 else
 {
 	setcookie('invalid', true);
-	header("Login.php");
+	header("Location:Login.php");
 	die();
 }
 ?>
