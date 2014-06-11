@@ -81,6 +81,7 @@ foreach ($db->query("SELECT itemName, price, picture, description FROM items WHE
   if ($reviewCount == 0)
     echo "<div class=\"reviewContent\">No Reviews Yet</div>";
 
+echo $_GET['itemId'];
 
   echo "<div id=\"logoContainer\">";
   echo "<a href=\"/CustomCar/WriteReview.php\"><div class=\"reviewLogo\"></div></a>";
