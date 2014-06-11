@@ -43,12 +43,6 @@ foreach ($db->query("SELECT itemName, price, picture, description FROM items WHE
   echo "<h3> Price: $" . $row['price'] . "</h3>";
   echo "</div>";
 
-  echo "<div class=\"itemDescription\">";
-  echo "<h3>Description</h3>";
-  echo $row['description'];
-  echo "</div>";
-
-  echo "<br />";
 
   echo "<div class=\"reviews\">";
   foreach ($db->query("SELECT review , userId FROM review WHERE itemId=" . $_GET['itemId']) as $table)
@@ -64,6 +58,14 @@ foreach ($db->query("SELECT itemName, price, picture, description FROM items WHE
   echo "</div>";
 
   echo "</div>";
+
+
+  echo "<div class=\"itemDescription\">";
+  echo "<h3>Description</h3>";
+  echo $row['description'];
+  echo "</div>";
+
+  echo "<br />";
 }
 
 
@@ -71,6 +73,6 @@ foreach ($db->query("SELECT itemName, price, picture, description FROM items WHE
   </div>
 </div>
 
-<?php include 'Modules/Template.php' ?>
+
   </body>
 </html>

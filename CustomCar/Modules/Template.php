@@ -6,7 +6,6 @@
 
 ?>
 	<div id="mainBody">
-	      main body
 	</div>
 	
 
@@ -36,7 +35,7 @@
 
 	<div id="footerBar">
 		<div id="footerContent">
-			Created By: Brandon Johnson
+			Created By: Brandon Johnson 2014
 		</div>
 	</div>	
 
