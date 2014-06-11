@@ -1,10 +1,9 @@
 <?php
-	try
-	{
-	  $user = "php";
-	  $password = "php";
-	  $db = new mysqli_connect("mysql:host=127.13.4.130;dbname=php", $user, $password);
-	}
+	
+	$user = "php";
+	$password = "php";
+	$db = new mysqli_connect("localhost", $user, $passwpord, "php");
+	
  	if (mysqli_connect_errno())
     {
         echo "Failed to connect to MySQL: " . mysqli_connect_error();
@@ -16,4 +15,4 @@
 
     header("location:Item.php?" . $_COOKIE['itemId']);
     die();
-    ?>
+?>
