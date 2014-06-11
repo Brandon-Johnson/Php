@@ -21,11 +21,16 @@ position:absolute;
 top:0;
 right:0;
 height:50px;
-width:100px;
+width:50px;
+padding-right:15px;
+padding-top:10px;
 }
 
 #LogoutIcon
 {
+width:100px;
+height:50px;
+background-repeat:no-repeat;
 background-image:url("/CustomCar/Images/logout.png");
 }
 
