@@ -1,8 +1,14 @@
 <link rel="stylesheet" type="text/css" href="/CustomCar/css/template.css"/>
 
 <?php
-
-
+  session_start();
+  if (isset($_SESSION['userId']))
+  {
+  	?>
+  	<div id="LogoutContainer">
+  		<a id="LogoutIcon" href="Logout.php"></a>
+  	</div>
+  }
 
 ?>
 	<div id="mainBody">

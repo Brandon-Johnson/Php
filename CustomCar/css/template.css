@@ -15,6 +15,24 @@ background-color:black;
 background-repeat:no-repeat;
 }
 
+#logout
+{
+position:absolute;
+top:0;
+right:0;
+height:50;
+}
+
+#logoutIcon
+{
+background-image:url();
+}
+
+#logoutIcon:hover
+{
+background-image:url();
+}
+
 /*******************************************************/
 /*******************************************************/
 /* Main Body part */
