@@ -11,7 +11,7 @@
  <div class="mainBodyContent">
    <form method="POST" action="ReviewSubmit.php">
    	<div id="reviewHeader">
-   		Write Review For 
+   		Write A Review For 
    		<?php
 		try
 		{
