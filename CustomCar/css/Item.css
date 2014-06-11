@@ -84,3 +84,9 @@ background-repeat:no-repeat;
 {
 background-image:url("/CustomCar/Images/reviewHover.png");
 }
+
+#logoContainer
+{
+	height:50px;
+	width:153px;
+}
