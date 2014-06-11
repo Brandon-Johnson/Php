@@ -19,7 +19,7 @@ catch (PDOException $ex)
 echo $userName;
 echo $pass;
 echo "<br/>";
-echo "SELECT id FROM user WHERE username = '$userName' AND password = 'pass'";
-$userId = $db->query("SELECT id FROM user WHERE username = \"'$userName'\"" AND password = \"'$pass'\"");
+echo "SELECT id FROM user WHERE username = '$userName' AND password = '$pass'";
+$userId = $db->query("SELECT id FROM user WHERE username = '$userName' AND password = '$pass'");
 echo $userId;
 ?>
