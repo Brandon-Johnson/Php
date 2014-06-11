@@ -13,6 +13,8 @@
 <div class="mainBodyContent">
 <?php
 
+$_POST['itemId'] = $_GET['itemId'];
+
 try
 {
   $user = "php";
