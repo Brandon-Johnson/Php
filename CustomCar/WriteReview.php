@@ -29,9 +29,11 @@
    		?>
    	</div>
    		<br/>
-   		<textarea id="theReviewField" rows="20" cols="100" name="theReview">Write Review Here</textarea>
+   	<div id="theReviewField">
+   		<textarea rows="20" cols="100" name="theReview">Write Review Here</textarea>
    		</br>
    		<input type="submit" value="Submit Review"/>
+   	</div>
    	</form>
  </div>
      <?php include 'Modules/Template.php' ?>
