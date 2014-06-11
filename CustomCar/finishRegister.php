@@ -6,6 +6,9 @@
     die();
   }
 
+	unset($_COOKIE['sp']);
+	unset($_COOKIE['taken']);
+
 $userName = $_POST['userName'];
 $pass = $_POST['password'];
 

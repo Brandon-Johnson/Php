@@ -5,6 +5,9 @@
     header("Location:Home.php");
     die();
   }
+  
+  unset($_COOKIE['sp']);
+  unset($_COOKIE['taken']);
 ?>
 
 <!DOCTYPE html>

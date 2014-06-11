@@ -1,5 +1,8 @@
 <?php
   session_start();
+  unset($_COOKIE['sp']);
+  unset($_COOKIE['taken']);
+  unset($_COOKIE['CoolBeans']);
   if (!isset($_SESSION['userId']))
   {
     header("Location:Login.php");
