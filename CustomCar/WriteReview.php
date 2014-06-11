@@ -10,7 +10,6 @@
     <div class="mainBodyContent">
         mainbody
     </div>  
-     <?php include 'Modules/Template.php' ?>
 
      <?php
      if (isset($_POST['itemId']))
