@@ -15,6 +15,6 @@ catch (PDOException $ex)
   die();
 }
 
-$userId = $db->prepare("SELECT id FROM users WHERE username = '$userName' AND password = 'pass'");
+$userId = $db->query("SELECT id FROM users WHERE username = '$userName' AND password = 'pass'");
 echo $userId;
 ?>
