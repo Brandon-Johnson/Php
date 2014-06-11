@@ -1,11 +1,14 @@
 .Input
 {
+float:left;
 font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 font-size:20px;
 }
 
 .Label
 {
+float:left;
+width:150px;
 color:#FFFFFF;
 font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 font-size:20px;

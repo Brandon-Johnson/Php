@@ -23,12 +23,13 @@
        	<label class="Label" for="userName">UserName: </label>
         <input class="Input" type="text" name="userName" id="userName"/><br/>
        	</p>
-        
+
         <p>
         <label class="Label" for="password">Password: </label>
         <input class="Input" type="password" name="password" id="password"/><br/>
        	</p>
         <input type="submit" value="Login"/>
+        <a class="Label" href="Register.php">Register</a>
        </form>
     </div>  
      <?php include 'Modules/Template.php' ?>
