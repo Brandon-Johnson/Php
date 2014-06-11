@@ -19,10 +19,10 @@
 
     <div class="mainBodyContent">
        <form action="validate.php" method="POST">
-       	<label for="userName">UserName: </label>
-       	<input type="text" name="userName" id="userName"/><br/>
-       	<label for="password">Password: </label>
-       	<input type="password" name="password" id="password"/><br/>
+       	<label class="Label" for="userName">UserName: </label>
+       	<input class="Input" type="text" name="userName" id="userName"/><br/>
+       	<label class="Label" for="password">Password: </label>
+       	<input class="Input" type="password" name="password" id="password"/><br/>
        	<input type="submit" value="Login"/>
        </form>
     </div>  
