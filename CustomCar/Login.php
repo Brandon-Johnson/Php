@@ -10,7 +10,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Custom Cars</title>   
+    <title>Custom Cars</title>
+    <link rel="stylesheet" type="text/css" href="/CustomCar/css/Login.css"/>   
   </head>
 
   <body>
