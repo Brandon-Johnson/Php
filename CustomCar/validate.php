@@ -19,6 +19,7 @@ foreach ($db->query("SELECT id FROM user WHERE username = '$userName' AND passwo
 
 if (isset($row['id']))
 {
+	session_start();
 	echo "Valid";
 	$_SESSION['userId'] = $row['id'];
 	header("Home.php");
@@ -26,7 +27,7 @@ if (isset($row['id']))
 }
 else
 {
-	$_COOKIE["invalid"] = true;
+	setcookie('invalid', true);
 	header("Login.php");
 	die();
 }
