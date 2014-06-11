@@ -77,7 +77,11 @@ foreach ($db->query("SELECT itemName, price, picture, description FROM items WHE
 
   if ($reviewCount == 0)
     echo "<div class=\"reviewContent\">No Reviews Yet</div>";
+
+
+  echo "<a class=\"reviewLogo\" href=\"/Store.php\"></a>";
   echo "</div>";
+
   echo "</div>";
 }
 

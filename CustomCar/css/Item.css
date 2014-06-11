@@ -69,4 +69,15 @@ padding-bottom:20px;
 {
 font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 font-size:30px;
+padding-bottom:10px;
+}
+
+.reviewLogo
+{
+background-image:url("review.png");
+}
+
+.reviewLogo:hover
+{
+background-image:url("reviewHover.png");
 }
