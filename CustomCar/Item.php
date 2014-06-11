@@ -13,7 +13,8 @@
 <div class="mainBodyContent">
 <?php
 
-$_POST['itemId'] = $_GET['itemId'];
+$cookie = $_GET['itemId'];
+setcookie('itemId', $value);
 
 try
 {
