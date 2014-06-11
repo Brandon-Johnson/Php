@@ -1,8 +1,8 @@
 .item
 {
+color:#FFFFFF;
 float:left;
 width:100%;
-background-color:#909090;
 height:100%;
 }
 
@@ -13,7 +13,7 @@ height:100%;
 font-size:30px;
 margin-top:10px;
 text-align:center;
-border-bottom:2px solid #505050;
+border-bottom:2px solid #C0C0C0;
 }
 
 .itemImage
@@ -25,13 +25,11 @@ padding-left:10px;
 .itemPrice
 {
 padding-top:10px;
-background-color:#FFFFFF;
 }
 
 .itemDescription
 {
 float:left;
-
 }
 
 #left
@@ -45,7 +43,7 @@ float:left;
 {
 margin-left:550px;
 height:100%;
-border-left:2px solid #FFFFFF;
+border-left:2px solid #C0C0C0;
 }
 
 .reviews
@@ -63,4 +61,5 @@ text-decoration:underline;
 {
 font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 font-size:20px;
+padding-bottom:20px;
 }

@@ -22,7 +22,6 @@ background-repeat:no-repeat;
 {
 position:fixed;
 min-height:100%;
-background-color:#FFFFFF;
 margin-left:10%;
 margin-right:10%;
 min-width:80%;
@@ -32,7 +31,6 @@ z-index:-1;
 .mainBodyContent
 {
 position:absolute;
-background-color:#0000FF;
 margin-top:160px;
 width:70%;
 margin-left:15%;
@@ -73,7 +71,6 @@ height:50px;
 width:80%;
 margin-left:10%;
 margin-right:10%;
-background-color:#FF0000;
 }
 
 #navigationContent
