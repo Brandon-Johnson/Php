@@ -24,7 +24,7 @@ if (isset($row['id']))
 	echo "Valid";
 	$_SESSION['userId'] = $row['id'];
 	echo $_SESSION['userId'];
-	/*header("Location:Home.php");*/
+	header("Location:Home.php");
 	die();
 }
 else
