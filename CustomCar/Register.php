@@ -47,6 +47,7 @@
           echo "Username has already been taken! <br/>";
       echo "</div>";
       ?>
+  	</div>
     </div>
      <?php include 'Modules/Template.php' ?>
   </body>
