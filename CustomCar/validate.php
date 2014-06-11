@@ -21,5 +21,11 @@ echo $pass;
 echo "<br/>";
 
 foreach ($db->query("SELECT id FROM user WHERE username = '$userName' AND password = '$pass'") as $row)
-	echo $row['id'];
+	$row['id'];
+
+if (isset($row['id']))
+{
+	echo "Valid";
+	$_SESSION['userId'] = $row['id'];
+}
 ?>
