@@ -13,3 +13,7 @@
     mysqli_query($db, "INSERT INTO review (review, itemId, userId) VALUES ($_POST['theReview'], $_COOKIE['itemId', 1);");
 
     mysqli_close($db);
+
+    header("location:Item.php?" . $_COOKIE['itemId']);
+    die();
+    ?>
