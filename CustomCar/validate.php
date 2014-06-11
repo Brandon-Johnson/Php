@@ -21,10 +21,10 @@ foreach ($db->query("SELECT id FROM user WHERE username = '$userName' AND passwo
 
 if (isset($row['id']))
 {
-
 	echo "Valid";
 	$_SESSION['userId'] = $row['id'];
-	header("Location:Home.php");
+	echo $_SESSION['userId'];
+	/*header("Location:Home.php");*/
 	die();
 }
 else
