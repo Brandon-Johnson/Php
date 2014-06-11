@@ -32,7 +32,8 @@ text-decoration:underline;
 .message
 {
 color:#FFFFFF;
-float:right;
+margin-left:50%;
+float:left;
 font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
 
