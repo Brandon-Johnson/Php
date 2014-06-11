@@ -43,13 +43,17 @@
         if(isset($_COOKIE['sp']))
         {
           echo "Passwords entered did not match! <br/>";
-           setcookie("sp", "", time()-3600);
+       
       	}
         if(isset($_COOKIE['taken']))
         {
-             setcookie("taken", "", time()-3600);
+             
         	echo "Username has already been taken! <br/>";
       	}
+          setcookie("sp", "", time()-3600);
+          setcookie("taken", "", time()-3600);
+          setcookie("CoolBeans", "", time()-3600);
+          setcookie("invalid", "", time()-3600);
         
       echo "</div>";
       ?>
