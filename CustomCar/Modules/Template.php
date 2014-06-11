@@ -7,7 +7,7 @@
 
   	?>
   	<div id="LogoutContainer">
-	<a href="Logout.php">
+	<a href="/CustomCar/Logout.php">
 		<div class="LogoutIcon">
 		</div>
 	</a>
