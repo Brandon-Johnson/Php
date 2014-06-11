@@ -1,6 +1,4 @@
 <?php
-echo $_POST['userName'];
-echo $_POST['password'];
 $userName = $_POST['userName'];
 $pass = $_POST['password'];
 
@@ -15,10 +13,6 @@ catch (PDOException $ex)
   echo "Error!: " . $ex->getMessage();
   die();
 }
-
-echo $userName;
-echo $pass;
-echo "<br/>";
 
 foreach ($db->query("SELECT id FROM user WHERE username = '$userName' AND password = '$pass'") as $row)
 	$row['id'];
