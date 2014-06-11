@@ -5,10 +5,10 @@
 
 <body>
 <?php
-	echo .$_POST["theReview"] . "<br/>";
-    echo .$_COOKIE["itemId"] . "<br/>";
+	echo $_POST["theReview"] . "<br/>";
+    echo $_COOKIE["itemId"] . "<br/>";
 
-    
+
 	$user = "php";
 	$password = "php";
 	$db = new mysqli_connect("localhost", $user, $password, "php");
