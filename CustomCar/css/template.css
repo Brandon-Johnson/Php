@@ -26,6 +26,11 @@ padding-right:15px;
 padding-top:10px;
 }
 
+.LogoutLink
+{
+height:50px;
+width:50px;
+}
 .LogoutIcon
 {
 width:100px;
