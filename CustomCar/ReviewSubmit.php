@@ -24,7 +24,6 @@
 	$itemId = $_COOKIE["itemId"];
 	$userId = 1;
 	$db->query("INSERT INTO `review` (review, itemId, userId) Values ('$review', '$itemId', '$userId')");
-	echo "INSERT INTO `review` (review, itemId, userId) Values ('$review', '$itemId', '$userId')";
     header("location:Item.php?itemId=" . $_COOKIE['itemId']); 
     die();
 ?>
