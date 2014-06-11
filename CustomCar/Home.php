@@ -14,7 +14,13 @@
   </head>
 
   <body>
-   
+   <?php
+ 
+  
+    echo $_SESSION['userId'];
+    /*header("Location:Login.php");*/
+  
+?>
 
     <div class="mainBodyContent">
 
