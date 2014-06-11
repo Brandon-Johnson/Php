@@ -5,11 +5,12 @@
   </head>
 
   <body>
-    <?php include 'Modules/Template.php' ?>
+   
 
     <div class="mainBodyContent">
         mainbody
     </div>  
+     <?php include 'Modules/Template.php' ?>
   </body>
 
 </html>
