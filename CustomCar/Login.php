@@ -31,17 +31,17 @@
         <input type="submit" value="Login"/>
        </form>
        <a class="Register" href="Register.php">Register</a>
-    </div>  
 
     <div class="message">
       <?php
         if(isset($_COOKIE['CoolBeans'])
         {
-          unset($COOKIE['CoolBeans']);
+          unset($_COOKIE['CoolBeans']);
           echo "Account Registered! <br/>";
         }
       ?>
     </div>
+  </div>
 
      <?php include 'Modules/Template.php' ?>
   </body>

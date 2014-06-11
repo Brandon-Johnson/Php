@@ -35,8 +35,7 @@
         <input class="Input" type="password" name="password2" id="password2"/><br/>
        	</p>
         <input type="submit" value="Register"/>
-       </form>
-    </div>  
+       </form> 
 
      <div class="message">
       <?php
@@ -48,12 +47,13 @@
       	}
         if(isset($_COOKIE['taken'])
         {
-        	unset($COOKIE['taken']);
+        	unset($_COOKIE['taken']);
         	echo "Username has already been taken! <br/>";
       	}
       echo "</div>";
       ?>
   	</div>
+  </div>
      <?php include 'Modules/Template.php' ?>
   </body>
 
