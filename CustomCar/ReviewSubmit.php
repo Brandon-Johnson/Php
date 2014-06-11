@@ -7,6 +7,7 @@
 <?php
 	echo $_POST["theReview"] . "<br/>";
     echo $_COOKIE["itemId"] . "<br/>";
+    echo "INSERT INTO review (review, itemId, userId) VALUES (" . $_POST["theReview"] . ", " . $_COOKIE["itemId"]  . ", 1);"
 
 
 	$user = "php";
