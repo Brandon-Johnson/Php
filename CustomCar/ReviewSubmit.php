@@ -5,6 +5,10 @@
     header("Location:Login.php");
     die();
   }
+  setcookie("sp", "", time()-3600);
+  setcookie("taken", "", time()-3600);
+  setcookie("CoolBeans", "", time()-3600);
+  setcookie("invalid", "", time()-3600);
 ?>
 
 <!DOCTYPE html>
@@ -31,7 +35,8 @@
 	}
 	$review = $_POST["theReview"];
 	$itemId = $_COOKIE["itemId"];
-	$userId = 1;
+	$userId = $_SESSION['userId'];
+	
 	$db->query("INSERT INTO `review` (review, itemId, userId) Values ('$review', '$itemId', '$userId')");
     header("location:Item.php?itemId=" . $_COOKIE['itemId']); 
     die();

@@ -5,9 +5,10 @@
     header("Location:Home.php");
     die();
   }
-  
-  unset($_COOKIE['sp']);
-  unset($_COOKIE['taken']);
+  setcookie("sp", "", time()-3600);
+  setcookie("taken", "", time()-3600);
+  setcookie("CoolBeans", "", time()-3600);
+  setcookie("invalid", "", time()-3600);
 ?>
 
 <!DOCTYPE html>
@@ -42,13 +43,13 @@
           echo "<div class=\"error\">";
           echo "Wrong Username / Password Combination! <br/>";
           echo "</div>";
-          
-          unset($_COOKIE['invalid']);
+
+          setcookie("invalid", "", time()-3600);
         }
 
         if(isset($_COOKIE['CoolBeans']))
         {
-          unset($_COOKIE['CoolBeans']);
+          setcookie("CoolBeans", "", time()-3600);
           echo "Account Registered! <br/>";
         }
       ?>

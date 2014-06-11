@@ -1,14 +1,15 @@
 <?php
   session_start();
-  if (isset($_SESSION['userId']))
+  if (!isset($_SESSION['userId']))
   {
-    header("Location:Home.php");
+    header("Location:Login.php");
     die();
   }
-
-	unset($_COOKIE['sp']);
-	unset($_COOKIE['taken']);
-
+  setcookie("sp", "", time()-3600);
+  setcookie("taken", "", time()-3600);
+  setcookie("CoolBeans", "", time()-3600);
+  setcookie("invalid", "", time()-3600);
+  
 $userName = $_POST['userName'];
 $pass = $_POST['password'];
 

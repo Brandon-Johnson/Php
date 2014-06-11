@@ -1,14 +1,14 @@
 <?php
   session_start();
-  unset($_COOKIE['sp']);
-  unset($_COOKIE['taken']);
-  unset($_COOKIE['CoolBeans']);
-
   if (!isset($_SESSION['userId']))
   {
     header("Location:Login.php");
     die();
   }
+  setcookie("sp", "", time()-3600);
+  setcookie("taken", "", time()-3600);
+  setcookie("CoolBeans", "", time()-3600);
+  setcookie("invalid", "", time()-3600);
 ?>
 
 <!DOCTYPE html>
