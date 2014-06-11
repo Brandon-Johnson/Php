@@ -79,7 +79,7 @@ foreach ($db->query("SELECT itemName, price, picture, description FROM items WHE
     echo "<div class=\"reviewContent\">No Reviews Yet</div>";
 
 
-  echo "<a class=\"reviewLogo\" href=\"/Store.php\"></a>";
+  echo "<a href=\"/Store.php\"><div class=\"reviewLogo\"></div></a>";
   echo "</div>";
 
   echo "</div>";
