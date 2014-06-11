@@ -21,12 +21,11 @@
        <form action="validate.php" method="POST">
         <p>
        	<label class="Label" for="userName">UserName: </label>
-       	</p>
-        <p>
         <input class="Input" type="text" name="userName" id="userName"/><br/>
        	</p>
+        
+        <p>
         <label class="Label" for="password">Password: </label>
-       	<p>
         <input class="Input" type="password" name="password" id="password"/><br/>
        	</p>
         <input type="submit" value="Login"/>
