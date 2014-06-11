@@ -6,9 +6,9 @@
   {
   	?>
   	<div id="LogoutContainer">
-  		<a id="LogoutIcon" href="Logout.php"></a>
+  		<a href="Logout.php"><div id="LogoutIcon"></div></a>
   	</div>
-  	
+
   	<?php
 
   }
