@@ -79,10 +79,10 @@ foreach ($db->query("SELECT itemName, price, picture, description FROM items WHE
     echo "<div class=\"reviewContent\">No Reviews Yet</div>";
 
   $theItemId = $_GET['itemId'];
-  setcookie("itemId", $theItemId);
+  setcookie('itemId', $theItemId);
 
-  if(isset($_COOKIE["itemId"]))
     echo $_COOKIE["itemId"];
+
   echo "<div id=\"logoContainer\">";
   echo "<a href=\"/CustomCar/WriteReview.php\"><div class=\"reviewLogo\"></div></a>";
   echo "</div>";
