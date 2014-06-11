@@ -57,8 +57,6 @@ foreach ($db->query("SELECT itemName, price, picture, description FROM items WHE
   }
   echo "</div>";
 
-  echo "</div>";
-
 
   echo "<div class=\"itemDescription\">";
   echo "<h3>Description</h3>";
@@ -66,6 +64,7 @@ foreach ($db->query("SELECT itemName, price, picture, description FROM items WHE
   echo "</div>";
 
   echo "<br />";
+  echo "</div>";
 }
 
 
