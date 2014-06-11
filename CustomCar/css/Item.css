@@ -74,7 +74,11 @@ padding-bottom:10px;
 
 .reviewLogo
 {
-background-image:url("/CustomCar/Images/review.png");}
+height:50px;
+width:153px;
+background-image:url("/CustomCar/Images/review.png");
+background-repeat:no-repeat;
+}
 
 .reviewLogo:hover
 {
