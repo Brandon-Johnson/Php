@@ -41,14 +41,19 @@
      <div class="message">
       <?php
       echo "<div class=\"error\">";
-        if($_COOKIE['sp'])
+        if(isset($_COOKIE['sp'])
+        {
+       	  unset($COOKIE['sp']);
           echo "Passwords entered did not match! <br/>";
-        if($_COOKIE['taken'])
-          echo "Username has already been taken! <br/>";
+      	}
+        if(isset($_COOKIE['taken'])
+        {
+        	unset($COOKIE['taken']);
+        	echo "Username has already been taken! <br/>";
+      	}
       echo "</div>";
       ?>
   	</div>
-    </div>
      <?php include 'Modules/Template.php' ?>
   </body>
 
