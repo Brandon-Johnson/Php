@@ -4,10 +4,15 @@
   session_start();
   if (isset($_SESSION['userId']))
   { 
-  	echo "<div id=\"LogoutContainer\">";
-  	echo "<a class=\"LogoutIcon\" href=\"/CustomCar/Logout.php\"></a>";
-  	echo "</div>";
 
+  	?>
+  	<div id="LogoutContainer">
+	<a href="Logout.php">
+		<div class="LogoutIcon">
+		</div>
+	</a>
+  	</div>
+	<?php
   }
 
 ?>

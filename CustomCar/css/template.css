@@ -17,18 +17,19 @@ background-repeat:no-repeat;
 
 #LogoutContainer
 {
+background-color:#FFFFFF;
 position:absolute;
 top:0;
 right:0;
 height:50px;
 width:50px;
-padding-right:15px;
-padding-top:10px;
 }
 
 
 .LogoutIcon
 {
+position:fixed;
+background-color:#FF0000;
 width:50px;
 height:50px;
 background-repeat:no-repeat;
@@ -37,9 +38,13 @@ background-image:url("/CustomCar/Images/logout.png");
 
 .LogoutIcon:hover
 {
+position:fixed;
+background-color:#FF0000;
+width:50px;
+height:50px;
+background-repeat:no-repeat;
 background-image:url("/CustomCar/Images/logoutHover.png");
 }
-
 /*******************************************************/
 /*******************************************************/
 /* Main Body part */
