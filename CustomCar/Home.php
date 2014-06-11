@@ -15,14 +15,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Custom Cars</title>   
+    <title>Custom Cars</title>  
+     <link rel="stylesheet" type="text/css" href="/CustomCar/css/Login.css"/> 
   </head>
 
   <body>
     <div class="mainBodyContent">
-    <?php
-
-    ?>
+      <div class="message">Welcome to Custom Cars</div>
     </div>  
      <?php include 'Modules/Template.php' ?>
   </body>
