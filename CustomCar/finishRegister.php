@@ -9,7 +9,7 @@
 $userName = $_POST['userName'];
 $pass = $_POST['password'];
 
-if ($_POST['password'] == $_POST['password2'])
+if ($_POST['password'] != $_POST['password2'])
 {
 setcookie('sp', true);
 header("Location:Register.php");
