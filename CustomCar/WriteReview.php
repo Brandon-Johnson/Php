@@ -11,6 +11,17 @@
    <form method="POST" action="ReviewSubmit.php">
    		Write Review For 
    		<?php
+		try
+		{
+		  $user = "php";
+		  $password = "php";
+		  $db = new PDO("mysql:host=127.13.4.130;dbname=php", $user, $password);
+		}
+		catch (PDOException $ex)
+		{
+		  echo "Error!: " . $ex->getMessage();
+		  die();
+		}
    		foreach ($db->query("SELECT itemName FROM items WHERE id=" . $_GET['itemId']) as $row)
    			echo $row['itemName'];
    		?>
