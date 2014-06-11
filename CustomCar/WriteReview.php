@@ -12,8 +12,7 @@
     </div>  
 
      <?php
-     if (isset($_COOKIE['itemId']))
-     	echo $_COOKIE['itemId'];
+     	echo $_COOKIE["itemId"];
      ?>
   </body>
 
