@@ -78,8 +78,8 @@ foreach ($db->query("SELECT itemName, price, picture, description FROM items WHE
   if ($reviewCount == 0)
     echo "<div class=\"reviewContent\">No Reviews Yet</div>";
 
-  $cookie = $_GET['itemId'];
-  setcookie("itemId", $value);
+  $theItemId = $_GET['itemId'];
+  setcookie("itemId", $theItemId);
 
   if(isset($_COOKIE["itemId"]))
     echo $_COOKIE["itemId"];
