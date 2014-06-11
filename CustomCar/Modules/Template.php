@@ -5,7 +5,7 @@
   if (isset($_SESSION['userId']))
   { 
   	echo "<div id=\"LogoutContainer\">";
-  	echo "<a class=\"LogoutLink\" href=\"/CustomCar/Logout.php\"><div class=\"LogoutIcon\"></div></a>";
+  	echo "<a class=\"LogoutIcon\" href=\"/CustomCar/Logout.php\"></a>";
   	echo "</div>";
 
   }
