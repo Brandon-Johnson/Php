@@ -26,6 +26,7 @@ background-color:#FFFFFF;
 margin-left:10%;
 margin-right:10%;
 min-width:80%;
+z-index:-1;
 }
 
 .mainBodyContent
