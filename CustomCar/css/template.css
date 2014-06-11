@@ -26,7 +26,7 @@ padding-right:15px;
 padding-top:10px;
 }
 
-#LogoutIcon
+.LogoutIcon
 {
 width:100px;
 height:50px;
@@ -34,7 +34,7 @@ background-repeat:no-repeat;
 background-image:url("/CustomCar/Images/logout.png");
 }
 
-#LogoutIcon:hover
+.LogoutIcon:hover
 {
 background-image:url("/CustomCar/Images/logoutHover.png");
 }

@@ -3,13 +3,10 @@
 <?php
   session_start();
   if (isset($_SESSION['userId']))
-  {
-  	?>
-  	<div id="LogoutContainer">
-  		<a href="Logout.php"><div id="LogoutIcon"></div></a>
-  	</div>
-
-  	<?php
+  { 
+  	echo "<div id=\"LogoutContainer\">";
+  	echo "<a href=\"/CustomCar/Logout.php\"><div class=\"LogoutIcon\"></div></a>";
+  	echo "</div>";
 
   }
 
