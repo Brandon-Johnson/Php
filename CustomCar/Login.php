@@ -37,6 +37,15 @@
 
     <div class="message">
       <?php
+        if(isset($_COOKIE['invalid']))
+        {
+          echo "<div class=\"error\">";
+          echo "Wrong Username / Password Combination! <br/>";
+          echo "</div>";
+          
+          unset($_COOKIE['invalid']);
+        }
+
         if(isset($_COOKIE['CoolBeans']))
         {
           unset($_COOKIE['CoolBeans']);
