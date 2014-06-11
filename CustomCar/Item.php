@@ -44,7 +44,7 @@ foreach ($db->query("SELECT itemName, price, picture, description FROM items WHE
   echo "</div>";
 
 
-  echo "<div=\"reviewContainer\">";
+  echo "<div id=\"reviewContainer\">";
   foreach ($db->query("SELECT review , userId FROM review WHERE itemId=" . $_GET['itemId']) as $table)
   {
     echo "<div class=\"reviews\">";
