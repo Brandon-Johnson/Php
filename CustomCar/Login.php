@@ -19,11 +19,17 @@
 
     <div class="mainBodyContent">
        <form action="validate.php" method="POST">
+        <p>
        	<label class="Label" for="userName">UserName: </label>
-       	<input class="Input" type="text" name="userName" id="userName"/><br/>
-       	<label class="Label" for="password">Password: </label>
-       	<input class="Input" type="password" name="password" id="password"/><br/>
-       	<input type="submit" value="Login"/>
+       	</p>
+        <p>
+        <input class="Input" type="text" name="userName" id="userName"/><br/>
+       	</p>
+        <label class="Label" for="password">Password: </label>
+       	<p>
+        <input class="Input" type="password" name="password" id="password"/><br/>
+       	</p>
+        <input type="submit" value="Login"/>
        </form>
     </div>  
      <?php include 'Modules/Template.php' ?>
