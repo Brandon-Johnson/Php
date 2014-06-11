@@ -43,7 +43,7 @@
       echo "<div class=\"error\">";
         if(isset($_COOKIE['sp'])
         {
-       	  unset($COOKIE['sp']);
+       	  unset($_COOKIE['sp']);
           echo "Passwords entered did not match! <br/>";
       	}
         if(isset($_COOKIE['taken'])

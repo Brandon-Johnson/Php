@@ -33,7 +33,15 @@
        <a class="Register" href="Register.php">Register</a>
     </div>  
 
-
+    <div class="message">
+      <?php
+        if(isset($_COOKIE['CoolBeans'])
+        {
+          unset($COOKIE['CoolBeans']);
+          echo "Account Registered! <br/>";
+        }
+      ?>
+    </div>
 
      <?php include 'Modules/Template.php' ?>
   </body>
