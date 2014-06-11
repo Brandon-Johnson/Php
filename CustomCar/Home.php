@@ -3,6 +3,7 @@
   unset($_COOKIE['sp']);
   unset($_COOKIE['taken']);
   unset($_COOKIE['CoolBeans']);
+
   if (!isset($_SESSION['userId']))
   {
     header("Location:Login.php");
@@ -18,14 +19,10 @@
   </head>
 
   <body>
-   <?php
-    
-  
-
-  ?>
-
     <div class="mainBodyContent">
+    <?php
 
+    ?>
     </div>  
      <?php include 'Modules/Template.php' ?>
   </body>
