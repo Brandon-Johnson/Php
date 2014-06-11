@@ -20,9 +20,12 @@
 	  echo "Error!: " . $ex->getMessage();
 	  die();
 	}
-	$db->query("INSERT INTO review (review, itemId, userId) VALUES (" . $_POST["theReview"] . ", " . $_COOKIE["itemId"]  . ", 1);");
+	$review = $_POST["theReview"];
+	$itemId = $_COOKIE["itemId"];
+	$userId = 1;
+	$db->query("INSERT INTO `review` (review, itemId, userId) Values ('$review', '$itemId', '$userId')");
 
-    header("location:Item.php?itemId=" . $_COOKIE['itemId']);
+    /* header("location:Item.php?itemId=" . $_COOKIE['itemId']); */
     die();
 ?>
 
