@@ -14,6 +14,7 @@
 
 		<a href="/Survey.php">Survey</a> <br/>
 		<a href="CustomCar/Home.php">CustomCars</a>
+		<a href="http://java-bdj.rhcloud.com/HelloWorld/HelloServlet">Java Hello World</a>
 	</div>
 </body>
 
